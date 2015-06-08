@@ -1,0 +1,857 @@
+<?xml version="1.0"?>
+
+
+<!DOCTYPE rdf:RDF [
+    <!ENTITY owl "http://www.w3.org/2002/07/owl#" >
+    <!ENTITY xsd "http://www.w3.org/2001/XMLSchema#" >
+    <!ENTITY rdfs "http://www.w3.org/2000/01/rdf-schema#" >
+    <!ENTITY rdf "http://www.w3.org/1999/02/22-rdf-syntax-ns#" >
+]>
+
+
+<rdf:RDF xmlns="http://www.semanticweb.org/hafeez/ontologies/2015/5/untitled-ontology-11#"
+     xml:base="http://www.semanticweb.org/hafeez/ontologies/2015/5/untitled-ontology-11"
+     xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+     xmlns:owl="http://www.w3.org/2002/07/owl#"
+     xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+     xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
+    <owl:Ontology rdf:about="http://www.semanticweb.org/hafeez/ontologies/2015/5/untitled-ontology-11"/>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Classes
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://www.semanticweb.org/hafeez/ontologies/2015/5/untitled-ontology-11#1 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/hafeez/ontologies/2015/5/untitled-ontology-11#1">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/hafeez/ontologies/2015/5/untitled-ontology-11#engine-type"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/hafeez/ontologies/2015/5/untitled-ontology-11#1bb1 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/hafeez/ontologies/2015/5/untitled-ontology-11#1bb1">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/hafeez/ontologies/2015/5/untitled-ontology-11#fuel-system"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/hafeez/ontologies/2015/5/untitled-ontology-11#2bb1 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/hafeez/ontologies/2015/5/untitled-ontology-11#2bb1">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/hafeez/ontologies/2015/5/untitled-ontology-11#fuel-system"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/hafeez/ontologies/2015/5/untitled-ontology-11#4bb1 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/hafeez/ontologies/2015/5/untitled-ontology-11#4bb1">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/hafeez/ontologies/2015/5/untitled-ontology-11#fuel-system"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/hafeez/ontologies/2015/5/untitled-ontology-11#4wd -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/hafeez/ontologies/2015/5/untitled-ontology-11#4wd">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/hafeez/ontologies/2015/5/untitled-ontology-11#drive-wheels"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/hafeez/ontologies/2015/5/untitled-ontology-11#Autos -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/hafeez/ontologies/2015/5/untitled-ontology-11#Autos"/>
+    
+
+
+    <!-- http://www.semanticweb.org/hafeez/ontologies/2015/5/untitled-ontology-11#Eight -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/hafeez/ontologies/2015/5/untitled-ontology-11#Eight">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/hafeez/ontologies/2015/5/untitled-ontology-11#num-of-cylinders"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/hafeez/ontologies/2015/5/untitled-ontology-11#Five -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/hafeez/ontologies/2015/5/untitled-ontology-11#Five">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/hafeez/ontologies/2015/5/untitled-ontology-11#num-of-cylinders"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/hafeez/ontologies/2015/5/untitled-ontology-11#Four -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/hafeez/ontologies/2015/5/untitled-ontology-11#Four">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/hafeez/ontologies/2015/5/untitled-ontology-11#num-of-cylinders"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/hafeez/ontologies/2015/5/untitled-ontology-11#Six -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/hafeez/ontologies/2015/5/untitled-ontology-11#Six">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/hafeez/ontologies/2015/5/untitled-ontology-11#num-of-cylinders"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/hafeez/ontologies/2015/5/untitled-ontology-11#Three -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/hafeez/ontologies/2015/5/untitled-ontology-11#Three">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/hafeez/ontologies/2015/5/untitled-ontology-11#num-of-cylinders"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/hafeez/ontologies/2015/5/untitled-ontology-11#Twelve -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/hafeez/ontologies/2015/5/untitled-ontology-11#Twelve">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/hafeez/ontologies/2015/5/untitled-ontology-11#num-of-cylinders"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/hafeez/ontologies/2015/5/untitled-ontology-11#Two -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/hafeez/ontologies/2015/5/untitled-ontology-11#Two">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/hafeez/ontologies/2015/5/untitled-ontology-11#num-of-cylinders"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/hafeez/ontologies/2015/5/untitled-ontology-11#alfa-romero -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/hafeez/ontologies/2015/5/untitled-ontology-11#alfa-romero">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/hafeez/ontologies/2015/5/untitled-ontology-11#make"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/hafeez/ontologies/2015/5/untitled-ontology-11#aspiration -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/hafeez/ontologies/2015/5/untitled-ontology-11#aspiration">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/hafeez/ontologies/2015/5/untitled-ontology-11#Autos"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/hafeez/ontologies/2015/5/untitled-ontology-11#audi -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/hafeez/ontologies/2015/5/untitled-ontology-11#audi">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/hafeez/ontologies/2015/5/untitled-ontology-11#make"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/hafeez/ontologies/2015/5/untitled-ontology-11#bmw -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/hafeez/ontologies/2015/5/untitled-ontology-11#bmw">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/hafeez/ontologies/2015/5/untitled-ontology-11#make"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/hafeez/ontologies/2015/5/untitled-ontology-11#body-style -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/hafeez/ontologies/2015/5/untitled-ontology-11#body-style">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/hafeez/ontologies/2015/5/untitled-ontology-11#Autos"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/hafeez/ontologies/2015/5/untitled-ontology-11#bore -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/hafeez/ontologies/2015/5/untitled-ontology-11#bore">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/hafeez/ontologies/2015/5/untitled-ontology-11#Autos"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/hafeez/ontologies/2015/5/untitled-ontology-11#chevrolet -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/hafeez/ontologies/2015/5/untitled-ontology-11#chevrolet">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/hafeez/ontologies/2015/5/untitled-ontology-11#make"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/hafeez/ontologies/2015/5/untitled-ontology-11#city-mpg -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/hafeez/ontologies/2015/5/untitled-ontology-11#city-mpg">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/hafeez/ontologies/2015/5/untitled-ontology-11#Autos"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/hafeez/ontologies/2015/5/untitled-ontology-11#compression-ratio -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/hafeez/ontologies/2015/5/untitled-ontology-11#compression-ratio">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/hafeez/ontologies/2015/5/untitled-ontology-11#Autos"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/hafeez/ontologies/2015/5/untitled-ontology-11#convertible -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/hafeez/ontologies/2015/5/untitled-ontology-11#convertible">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/hafeez/ontologies/2015/5/untitled-ontology-11#body-style"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/hafeez/ontologies/2015/5/untitled-ontology-11#curb-weight -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/hafeez/ontologies/2015/5/untitled-ontology-11#curb-weight">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/hafeez/ontologies/2015/5/untitled-ontology-11#Autos"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/hafeez/ontologies/2015/5/untitled-ontology-11#diesel -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/hafeez/ontologies/2015/5/untitled-ontology-11#diesel">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/hafeez/ontologies/2015/5/untitled-ontology-11#fuel-Type"/>
+        <owl:disjointWith rdf:resource="http://www.semanticweb.org/hafeez/ontologies/2015/5/untitled-ontology-11#gas"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/hafeez/ontologies/2015/5/untitled-ontology-11#dodge -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/hafeez/ontologies/2015/5/untitled-ontology-11#dodge">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/hafeez/ontologies/2015/5/untitled-ontology-11#make"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/hafeez/ontologies/2015/5/untitled-ontology-11#dohc -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/hafeez/ontologies/2015/5/untitled-ontology-11#dohc">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/hafeez/ontologies/2015/5/untitled-ontology-11#engine-type"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/hafeez/ontologies/2015/5/untitled-ontology-11#dohcv -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/hafeez/ontologies/2015/5/untitled-ontology-11#dohcv">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/hafeez/ontologies/2015/5/untitled-ontology-11#engine-type"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/hafeez/ontologies/2015/5/untitled-ontology-11#drive-wheels -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/hafeez/ontologies/2015/5/untitled-ontology-11#drive-wheels">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/hafeez/ontologies/2015/5/untitled-ontology-11#Autos"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/hafeez/ontologies/2015/5/untitled-ontology-11#engine-location -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/hafeez/ontologies/2015/5/untitled-ontology-11#engine-location">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/hafeez/ontologies/2015/5/untitled-ontology-11#Autos"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/hafeez/ontologies/2015/5/untitled-ontology-11#engine-size -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/hafeez/ontologies/2015/5/untitled-ontology-11#engine-size">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/hafeez/ontologies/2015/5/untitled-ontology-11#Autos"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/hafeez/ontologies/2015/5/untitled-ontology-11#engine-type -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/hafeez/ontologies/2015/5/untitled-ontology-11#engine-type">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/hafeez/ontologies/2015/5/untitled-ontology-11#Autos"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/hafeez/ontologies/2015/5/untitled-ontology-11#four -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/hafeez/ontologies/2015/5/untitled-ontology-11#four">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/hafeez/ontologies/2015/5/untitled-ontology-11#num-of-doors"/>
+        <owl:disjointWith rdf:resource="http://www.semanticweb.org/hafeez/ontologies/2015/5/untitled-ontology-11#two"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/hafeez/ontologies/2015/5/untitled-ontology-11#front -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/hafeez/ontologies/2015/5/untitled-ontology-11#front">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/hafeez/ontologies/2015/5/untitled-ontology-11#engine-location"/>
+        <owl:disjointWith rdf:resource="http://www.semanticweb.org/hafeez/ontologies/2015/5/untitled-ontology-11#rear"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/hafeez/ontologies/2015/5/untitled-ontology-11#fuel-Type -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/hafeez/ontologies/2015/5/untitled-ontology-11#fuel-Type">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/hafeez/ontologies/2015/5/untitled-ontology-11#Autos"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/hafeez/ontologies/2015/5/untitled-ontology-11#fuel-system -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/hafeez/ontologies/2015/5/untitled-ontology-11#fuel-system">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/hafeez/ontologies/2015/5/untitled-ontology-11#Autos"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/hafeez/ontologies/2015/5/untitled-ontology-11#fwd -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/hafeez/ontologies/2015/5/untitled-ontology-11#fwd">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/hafeez/ontologies/2015/5/untitled-ontology-11#drive-wheels"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/hafeez/ontologies/2015/5/untitled-ontology-11#gas -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/hafeez/ontologies/2015/5/untitled-ontology-11#gas">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/hafeez/ontologies/2015/5/untitled-ontology-11#fuel-Type"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/hafeez/ontologies/2015/5/untitled-ontology-11#hardtop -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/hafeez/ontologies/2015/5/untitled-ontology-11#hardtop">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/hafeez/ontologies/2015/5/untitled-ontology-11#body-style"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/hafeez/ontologies/2015/5/untitled-ontology-11#hatchback -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/hafeez/ontologies/2015/5/untitled-ontology-11#hatchback">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/hafeez/ontologies/2015/5/untitled-ontology-11#body-style"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/hafeez/ontologies/2015/5/untitled-ontology-11#height -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/hafeez/ontologies/2015/5/untitled-ontology-11#height">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/hafeez/ontologies/2015/5/untitled-ontology-11#Autos"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/hafeez/ontologies/2015/5/untitled-ontology-11#highway-mpg -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/hafeez/ontologies/2015/5/untitled-ontology-11#highway-mpg">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/hafeez/ontologies/2015/5/untitled-ontology-11#Autos"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/hafeez/ontologies/2015/5/untitled-ontology-11#honda -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/hafeez/ontologies/2015/5/untitled-ontology-11#honda">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/hafeez/ontologies/2015/5/untitled-ontology-11#make"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/hafeez/ontologies/2015/5/untitled-ontology-11#horsepower -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/hafeez/ontologies/2015/5/untitled-ontology-11#horsepower">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/hafeez/ontologies/2015/5/untitled-ontology-11#Autos"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/hafeez/ontologies/2015/5/untitled-ontology-11#idi -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/hafeez/ontologies/2015/5/untitled-ontology-11#idi">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/hafeez/ontologies/2015/5/untitled-ontology-11#fuel-system"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/hafeez/ontologies/2015/5/untitled-ontology-11#isuzu -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/hafeez/ontologies/2015/5/untitled-ontology-11#isuzu">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/hafeez/ontologies/2015/5/untitled-ontology-11#make"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/hafeez/ontologies/2015/5/untitled-ontology-11#jaguar -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/hafeez/ontologies/2015/5/untitled-ontology-11#jaguar">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/hafeez/ontologies/2015/5/untitled-ontology-11#make"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/hafeez/ontologies/2015/5/untitled-ontology-11#length -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/hafeez/ontologies/2015/5/untitled-ontology-11#length">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/hafeez/ontologies/2015/5/untitled-ontology-11#Autos"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/hafeez/ontologies/2015/5/untitled-ontology-11#make -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/hafeez/ontologies/2015/5/untitled-ontology-11#make">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/hafeez/ontologies/2015/5/untitled-ontology-11#Autos"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/hafeez/ontologies/2015/5/untitled-ontology-11#mazda -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/hafeez/ontologies/2015/5/untitled-ontology-11#mazda">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/hafeez/ontologies/2015/5/untitled-ontology-11#make"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/hafeez/ontologies/2015/5/untitled-ontology-11#mercedes-benz -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/hafeez/ontologies/2015/5/untitled-ontology-11#mercedes-benz">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/hafeez/ontologies/2015/5/untitled-ontology-11#make"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/hafeez/ontologies/2015/5/untitled-ontology-11#mercury -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/hafeez/ontologies/2015/5/untitled-ontology-11#mercury">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/hafeez/ontologies/2015/5/untitled-ontology-11#make"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/hafeez/ontologies/2015/5/untitled-ontology-11#mfi -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/hafeez/ontologies/2015/5/untitled-ontology-11#mfi">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/hafeez/ontologies/2015/5/untitled-ontology-11#fuel-system"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/hafeez/ontologies/2015/5/untitled-ontology-11#mitsubishi -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/hafeez/ontologies/2015/5/untitled-ontology-11#mitsubishi">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/hafeez/ontologies/2015/5/untitled-ontology-11#make"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/hafeez/ontologies/2015/5/untitled-ontology-11#mpfi -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/hafeez/ontologies/2015/5/untitled-ontology-11#mpfi">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/hafeez/ontologies/2015/5/untitled-ontology-11#fuel-system"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/hafeez/ontologies/2015/5/untitled-ontology-11#nissan -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/hafeez/ontologies/2015/5/untitled-ontology-11#nissan">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/hafeez/ontologies/2015/5/untitled-ontology-11#make"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/hafeez/ontologies/2015/5/untitled-ontology-11#normalized-losses -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/hafeez/ontologies/2015/5/untitled-ontology-11#normalized-losses">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/hafeez/ontologies/2015/5/untitled-ontology-11#Autos"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/hafeez/ontologies/2015/5/untitled-ontology-11#num-of-cylinders -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/hafeez/ontologies/2015/5/untitled-ontology-11#num-of-cylinders">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/hafeez/ontologies/2015/5/untitled-ontology-11#Autos"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/hafeez/ontologies/2015/5/untitled-ontology-11#num-of-doors -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/hafeez/ontologies/2015/5/untitled-ontology-11#num-of-doors">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/hafeez/ontologies/2015/5/untitled-ontology-11#Autos"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/hafeez/ontologies/2015/5/untitled-ontology-11#ohc -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/hafeez/ontologies/2015/5/untitled-ontology-11#ohc">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/hafeez/ontologies/2015/5/untitled-ontology-11#engine-type"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/hafeez/ontologies/2015/5/untitled-ontology-11#ohcf -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/hafeez/ontologies/2015/5/untitled-ontology-11#ohcf">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/hafeez/ontologies/2015/5/untitled-ontology-11#engine-type"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/hafeez/ontologies/2015/5/untitled-ontology-11#ohcv -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/hafeez/ontologies/2015/5/untitled-ontology-11#ohcv">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/hafeez/ontologies/2015/5/untitled-ontology-11#engine-type"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/hafeez/ontologies/2015/5/untitled-ontology-11#peak-rpm -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/hafeez/ontologies/2015/5/untitled-ontology-11#peak-rpm">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/hafeez/ontologies/2015/5/untitled-ontology-11#Autos"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/hafeez/ontologies/2015/5/untitled-ontology-11#peugot -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/hafeez/ontologies/2015/5/untitled-ontology-11#peugot">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/hafeez/ontologies/2015/5/untitled-ontology-11#make"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/hafeez/ontologies/2015/5/untitled-ontology-11#plymouth -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/hafeez/ontologies/2015/5/untitled-ontology-11#plymouth">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/hafeez/ontologies/2015/5/untitled-ontology-11#make"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/hafeez/ontologies/2015/5/untitled-ontology-11#porche -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/hafeez/ontologies/2015/5/untitled-ontology-11#porche">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/hafeez/ontologies/2015/5/untitled-ontology-11#make"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/hafeez/ontologies/2015/5/untitled-ontology-11#price -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/hafeez/ontologies/2015/5/untitled-ontology-11#price">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/hafeez/ontologies/2015/5/untitled-ontology-11#Autos"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/hafeez/ontologies/2015/5/untitled-ontology-11#rear -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/hafeez/ontologies/2015/5/untitled-ontology-11#rear">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/hafeez/ontologies/2015/5/untitled-ontology-11#engine-location"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/hafeez/ontologies/2015/5/untitled-ontology-11#renault -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/hafeez/ontologies/2015/5/untitled-ontology-11#renault">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/hafeez/ontologies/2015/5/untitled-ontology-11#make"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/hafeez/ontologies/2015/5/untitled-ontology-11#rotor -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/hafeez/ontologies/2015/5/untitled-ontology-11#rotor">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/hafeez/ontologies/2015/5/untitled-ontology-11#engine-type"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/hafeez/ontologies/2015/5/untitled-ontology-11#rwd -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/hafeez/ontologies/2015/5/untitled-ontology-11#rwd">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/hafeez/ontologies/2015/5/untitled-ontology-11#drive-wheels"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/hafeez/ontologies/2015/5/untitled-ontology-11#saab -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/hafeez/ontologies/2015/5/untitled-ontology-11#saab">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/hafeez/ontologies/2015/5/untitled-ontology-11#make"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/hafeez/ontologies/2015/5/untitled-ontology-11#sedan -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/hafeez/ontologies/2015/5/untitled-ontology-11#sedan">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/hafeez/ontologies/2015/5/untitled-ontology-11#body-style"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/hafeez/ontologies/2015/5/untitled-ontology-11#spdi -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/hafeez/ontologies/2015/5/untitled-ontology-11#spdi">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/hafeez/ontologies/2015/5/untitled-ontology-11#fuel-system"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/hafeez/ontologies/2015/5/untitled-ontology-11#spfi -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/hafeez/ontologies/2015/5/untitled-ontology-11#spfi">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/hafeez/ontologies/2015/5/untitled-ontology-11#fuel-system"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/hafeez/ontologies/2015/5/untitled-ontology-11#std -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/hafeez/ontologies/2015/5/untitled-ontology-11#std">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/hafeez/ontologies/2015/5/untitled-ontology-11#aspiration"/>
+        <owl:disjointWith rdf:resource="http://www.semanticweb.org/hafeez/ontologies/2015/5/untitled-ontology-11#turbo"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/hafeez/ontologies/2015/5/untitled-ontology-11#stroke -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/hafeez/ontologies/2015/5/untitled-ontology-11#stroke">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/hafeez/ontologies/2015/5/untitled-ontology-11#Autos"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/hafeez/ontologies/2015/5/untitled-ontology-11#subaru -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/hafeez/ontologies/2015/5/untitled-ontology-11#subaru">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/hafeez/ontologies/2015/5/untitled-ontology-11#make"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/hafeez/ontologies/2015/5/untitled-ontology-11#symboling -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/hafeez/ontologies/2015/5/untitled-ontology-11#symboling">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/hafeez/ontologies/2015/5/untitled-ontology-11#Autos"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/hafeez/ontologies/2015/5/untitled-ontology-11#toyota -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/hafeez/ontologies/2015/5/untitled-ontology-11#toyota">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/hafeez/ontologies/2015/5/untitled-ontology-11#make"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/hafeez/ontologies/2015/5/untitled-ontology-11#turbo -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/hafeez/ontologies/2015/5/untitled-ontology-11#turbo">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/hafeez/ontologies/2015/5/untitled-ontology-11#aspiration"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/hafeez/ontologies/2015/5/untitled-ontology-11#two -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/hafeez/ontologies/2015/5/untitled-ontology-11#two">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/hafeez/ontologies/2015/5/untitled-ontology-11#num-of-doors"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/hafeez/ontologies/2015/5/untitled-ontology-11#volkswagen -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/hafeez/ontologies/2015/5/untitled-ontology-11#volkswagen">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/hafeez/ontologies/2015/5/untitled-ontology-11#make"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/hafeez/ontologies/2015/5/untitled-ontology-11#volvo -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/hafeez/ontologies/2015/5/untitled-ontology-11#volvo">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/hafeez/ontologies/2015/5/untitled-ontology-11#make"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/hafeez/ontologies/2015/5/untitled-ontology-11#wagon -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/hafeez/ontologies/2015/5/untitled-ontology-11#wagon">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/hafeez/ontologies/2015/5/untitled-ontology-11#body-style"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/hafeez/ontologies/2015/5/untitled-ontology-11#wheel-base -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/hafeez/ontologies/2015/5/untitled-ontology-11#wheel-base">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/hafeez/ontologies/2015/5/untitled-ontology-11#Autos"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/hafeez/ontologies/2015/5/untitled-ontology-11#width -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/hafeez/ontologies/2015/5/untitled-ontology-11#width">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/hafeez/ontologies/2015/5/untitled-ontology-11#Autos"/>
+    </owl:Class>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // General axioms
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    <rdf:Description>
+        <rdf:type rdf:resource="&owl;AllDisjointClasses"/>
+        <owl:members rdf:parseType="Collection">
+            <rdf:Description rdf:about="http://www.semanticweb.org/hafeez/ontologies/2015/5/untitled-ontology-11#Eight"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/hafeez/ontologies/2015/5/untitled-ontology-11#Five"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/hafeez/ontologies/2015/5/untitled-ontology-11#Four"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/hafeez/ontologies/2015/5/untitled-ontology-11#Six"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/hafeez/ontologies/2015/5/untitled-ontology-11#Three"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/hafeez/ontologies/2015/5/untitled-ontology-11#Twelve"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/hafeez/ontologies/2015/5/untitled-ontology-11#Two"/>
+        </owl:members>
+    </rdf:Description>
+    <rdf:Description>
+        <rdf:type rdf:resource="&owl;AllDisjointClasses"/>
+        <owl:members rdf:parseType="Collection">
+            <rdf:Description rdf:about="http://www.semanticweb.org/hafeez/ontologies/2015/5/untitled-ontology-11#1"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/hafeez/ontologies/2015/5/untitled-ontology-11#dohc"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/hafeez/ontologies/2015/5/untitled-ontology-11#dohcv"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/hafeez/ontologies/2015/5/untitled-ontology-11#ohc"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/hafeez/ontologies/2015/5/untitled-ontology-11#ohcf"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/hafeez/ontologies/2015/5/untitled-ontology-11#ohcv"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/hafeez/ontologies/2015/5/untitled-ontology-11#rotor"/>
+        </owl:members>
+    </rdf:Description>
+    <rdf:Description>
+        <rdf:type rdf:resource="&owl;AllDisjointClasses"/>
+        <owl:members rdf:parseType="Collection">
+            <rdf:Description rdf:about="http://www.semanticweb.org/hafeez/ontologies/2015/5/untitled-ontology-11#aspiration"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/hafeez/ontologies/2015/5/untitled-ontology-11#body-style"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/hafeez/ontologies/2015/5/untitled-ontology-11#bore"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/hafeez/ontologies/2015/5/untitled-ontology-11#city-mpg"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/hafeez/ontologies/2015/5/untitled-ontology-11#compression-ratio"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/hafeez/ontologies/2015/5/untitled-ontology-11#curb-weight"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/hafeez/ontologies/2015/5/untitled-ontology-11#drive-wheels"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/hafeez/ontologies/2015/5/untitled-ontology-11#engine-location"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/hafeez/ontologies/2015/5/untitled-ontology-11#engine-size"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/hafeez/ontologies/2015/5/untitled-ontology-11#engine-type"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/hafeez/ontologies/2015/5/untitled-ontology-11#fuel-Type"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/hafeez/ontologies/2015/5/untitled-ontology-11#fuel-system"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/hafeez/ontologies/2015/5/untitled-ontology-11#height"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/hafeez/ontologies/2015/5/untitled-ontology-11#highway-mpg"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/hafeez/ontologies/2015/5/untitled-ontology-11#horsepower"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/hafeez/ontologies/2015/5/untitled-ontology-11#length"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/hafeez/ontologies/2015/5/untitled-ontology-11#make"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/hafeez/ontologies/2015/5/untitled-ontology-11#normalized-losses"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/hafeez/ontologies/2015/5/untitled-ontology-11#num-of-cylinders"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/hafeez/ontologies/2015/5/untitled-ontology-11#num-of-doors"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/hafeez/ontologies/2015/5/untitled-ontology-11#peak-rpm"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/hafeez/ontologies/2015/5/untitled-ontology-11#price"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/hafeez/ontologies/2015/5/untitled-ontology-11#stroke"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/hafeez/ontologies/2015/5/untitled-ontology-11#symboling"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/hafeez/ontologies/2015/5/untitled-ontology-11#wheel-base"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/hafeez/ontologies/2015/5/untitled-ontology-11#width"/>
+        </owl:members>
+    </rdf:Description>
+    <rdf:Description>
+        <rdf:type rdf:resource="&owl;AllDisjointClasses"/>
+        <owl:members rdf:parseType="Collection">
+            <rdf:Description rdf:about="http://www.semanticweb.org/hafeez/ontologies/2015/5/untitled-ontology-11#convertible"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/hafeez/ontologies/2015/5/untitled-ontology-11#hardtop"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/hafeez/ontologies/2015/5/untitled-ontology-11#hatchback"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/hafeez/ontologies/2015/5/untitled-ontology-11#sedan"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/hafeez/ontologies/2015/5/untitled-ontology-11#wagon"/>
+        </owl:members>
+    </rdf:Description>
+    <rdf:Description>
+        <rdf:type rdf:resource="&owl;AllDisjointClasses"/>
+        <owl:members rdf:parseType="Collection">
+            <rdf:Description rdf:about="http://www.semanticweb.org/hafeez/ontologies/2015/5/untitled-ontology-11#4wd"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/hafeez/ontologies/2015/5/untitled-ontology-11#fwd"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/hafeez/ontologies/2015/5/untitled-ontology-11#rwd"/>
+        </owl:members>
+    </rdf:Description>
+    <rdf:Description>
+        <rdf:type rdf:resource="&owl;AllDisjointClasses"/>
+        <owl:members rdf:parseType="Collection">
+            <rdf:Description rdf:about="http://www.semanticweb.org/hafeez/ontologies/2015/5/untitled-ontology-11#1bb1"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/hafeez/ontologies/2015/5/untitled-ontology-11#2bb1"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/hafeez/ontologies/2015/5/untitled-ontology-11#4bb1"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/hafeez/ontologies/2015/5/untitled-ontology-11#idi"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/hafeez/ontologies/2015/5/untitled-ontology-11#mfi"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/hafeez/ontologies/2015/5/untitled-ontology-11#mpfi"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/hafeez/ontologies/2015/5/untitled-ontology-11#spdi"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/hafeez/ontologies/2015/5/untitled-ontology-11#spfi"/>
+        </owl:members>
+    </rdf:Description>
+    <rdf:Description>
+        <rdf:type rdf:resource="&owl;AllDisjointClasses"/>
+        <owl:members rdf:parseType="Collection">
+            <rdf:Description rdf:about="http://www.semanticweb.org/hafeez/ontologies/2015/5/untitled-ontology-11#alfa-romero"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/hafeez/ontologies/2015/5/untitled-ontology-11#audi"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/hafeez/ontologies/2015/5/untitled-ontology-11#bmw"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/hafeez/ontologies/2015/5/untitled-ontology-11#chevrolet"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/hafeez/ontologies/2015/5/untitled-ontology-11#dodge"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/hafeez/ontologies/2015/5/untitled-ontology-11#honda"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/hafeez/ontologies/2015/5/untitled-ontology-11#isuzu"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/hafeez/ontologies/2015/5/untitled-ontology-11#jaguar"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/hafeez/ontologies/2015/5/untitled-ontology-11#mazda"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/hafeez/ontologies/2015/5/untitled-ontology-11#mercedes-benz"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/hafeez/ontologies/2015/5/untitled-ontology-11#mercury"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/hafeez/ontologies/2015/5/untitled-ontology-11#mitsubishi"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/hafeez/ontologies/2015/5/untitled-ontology-11#nissan"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/hafeez/ontologies/2015/5/untitled-ontology-11#peugot"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/hafeez/ontologies/2015/5/untitled-ontology-11#plymouth"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/hafeez/ontologies/2015/5/untitled-ontology-11#porche"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/hafeez/ontologies/2015/5/untitled-ontology-11#renault"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/hafeez/ontologies/2015/5/untitled-ontology-11#saab"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/hafeez/ontologies/2015/5/untitled-ontology-11#subaru"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/hafeez/ontologies/2015/5/untitled-ontology-11#toyota"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/hafeez/ontologies/2015/5/untitled-ontology-11#volkswagen"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/hafeez/ontologies/2015/5/untitled-ontology-11#volvo"/>
+        </owl:members>
+    </rdf:Description>
+</rdf:RDF>
+
+
+
+<!-- Generated by the OWL API (version 3.4.2) http://owlapi.sourceforge.net -->
+

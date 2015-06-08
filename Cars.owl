@@ -1,0 +1,313 @@
+<?xml version="1.0"?>
+
+
+<!DOCTYPE rdf:RDF [
+    <!ENTITY owl "http://www.w3.org/2002/07/owl#" >
+    <!ENTITY xsd "http://www.w3.org/2001/XMLSchema#" >
+    <!ENTITY rdfs "http://www.w3.org/2000/01/rdf-schema#" >
+    <!ENTITY rdf "http://www.w3.org/1999/02/22-rdf-syntax-ns#" >
+]>
+
+
+<rdf:RDF xmlns="http://www.semanticweb.org/hafeez/ontologies/2015/5/untitled-ontology-7#"
+     xml:base="http://www.semanticweb.org/hafeez/ontologies/2015/5/untitled-ontology-7"
+     xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+     xmlns:owl="http://www.w3.org/2002/07/owl#"
+     xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+     xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
+    <owl:Ontology rdf:about="http://www.semanticweb.org/hafeez/ontologies/2015/5/untitled-ontology-7"/>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Classes
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://www.semanticweb.org/hafeez/ontologies/2015/5/untitled-ontology-7#2 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/hafeez/ontologies/2015/5/untitled-ontology-7#2">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/hafeez/ontologies/2015/5/untitled-ontology-7#Doors"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/hafeez/ontologies/2015/5/untitled-ontology-7#2. -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/hafeez/ontologies/2015/5/untitled-ontology-7#2.">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/hafeez/ontologies/2015/5/untitled-ontology-7#Persons"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/hafeez/ontologies/2015/5/untitled-ontology-7#3 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/hafeez/ontologies/2015/5/untitled-ontology-7#3">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/hafeez/ontologies/2015/5/untitled-ontology-7#Doors"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/hafeez/ontologies/2015/5/untitled-ontology-7#4 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/hafeez/ontologies/2015/5/untitled-ontology-7#4">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/hafeez/ontologies/2015/5/untitled-ontology-7#Doors"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/hafeez/ontologies/2015/5/untitled-ontology-7#4. -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/hafeez/ontologies/2015/5/untitled-ontology-7#4.">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/hafeez/ontologies/2015/5/untitled-ontology-7#Persons"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/hafeez/ontologies/2015/5/untitled-ontology-7#5more -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/hafeez/ontologies/2015/5/untitled-ontology-7#5more">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/hafeez/ontologies/2015/5/untitled-ontology-7#Doors"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/hafeez/ontologies/2015/5/untitled-ontology-7#Buying -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/hafeez/ontologies/2015/5/untitled-ontology-7#Buying">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/hafeez/ontologies/2015/5/untitled-ontology-7#PRICE"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/hafeez/ontologies/2015/5/untitled-ontology-7#CAR -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/hafeez/ontologies/2015/5/untitled-ontology-7#CAR"/>
+    
+
+
+    <!-- http://www.semanticweb.org/hafeez/ontologies/2015/5/untitled-ontology-7#Comfort -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/hafeez/ontologies/2015/5/untitled-ontology-7#Comfort">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/hafeez/ontologies/2015/5/untitled-ontology-7#TECH"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/hafeez/ontologies/2015/5/untitled-ontology-7#Doors -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/hafeez/ontologies/2015/5/untitled-ontology-7#Doors">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/hafeez/ontologies/2015/5/untitled-ontology-7#Comfort"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/hafeez/ontologies/2015/5/untitled-ontology-7#HIgh -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/hafeez/ontologies/2015/5/untitled-ontology-7#HIgh">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/hafeez/ontologies/2015/5/untitled-ontology-7#Buying"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/hafeez/ontologies/2015/5/untitled-ontology-7#High -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/hafeez/ontologies/2015/5/untitled-ontology-7#High">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/hafeez/ontologies/2015/5/untitled-ontology-7#Safety"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/hafeez/ontologies/2015/5/untitled-ontology-7#Low -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/hafeez/ontologies/2015/5/untitled-ontology-7#Low">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/hafeez/ontologies/2015/5/untitled-ontology-7#Maint"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/hafeez/ontologies/2015/5/untitled-ontology-7#Lug_boot -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/hafeez/ontologies/2015/5/untitled-ontology-7#Lug_boot">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/hafeez/ontologies/2015/5/untitled-ontology-7#Comfort"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/hafeez/ontologies/2015/5/untitled-ontology-7#Maint -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/hafeez/ontologies/2015/5/untitled-ontology-7#Maint">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/hafeez/ontologies/2015/5/untitled-ontology-7#PRICE"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/hafeez/ontologies/2015/5/untitled-ontology-7#Med -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/hafeez/ontologies/2015/5/untitled-ontology-7#Med">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/hafeez/ontologies/2015/5/untitled-ontology-7#Buying"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/hafeez/ontologies/2015/5/untitled-ontology-7#Medium -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/hafeez/ontologies/2015/5/untitled-ontology-7#Medium">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/hafeez/ontologies/2015/5/untitled-ontology-7#Safety"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/hafeez/ontologies/2015/5/untitled-ontology-7#PRICE -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/hafeez/ontologies/2015/5/untitled-ontology-7#PRICE">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/hafeez/ontologies/2015/5/untitled-ontology-7#CAR"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/hafeez/ontologies/2015/5/untitled-ontology-7#Persons -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/hafeez/ontologies/2015/5/untitled-ontology-7#Persons">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/hafeez/ontologies/2015/5/untitled-ontology-7#Comfort"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/hafeez/ontologies/2015/5/untitled-ontology-7#Safety -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/hafeez/ontologies/2015/5/untitled-ontology-7#Safety">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/hafeez/ontologies/2015/5/untitled-ontology-7#TECH"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/hafeez/ontologies/2015/5/untitled-ontology-7#Small -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/hafeez/ontologies/2015/5/untitled-ontology-7#Small">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/hafeez/ontologies/2015/5/untitled-ontology-7#Safety"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/hafeez/ontologies/2015/5/untitled-ontology-7#TECH -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/hafeez/ontologies/2015/5/untitled-ontology-7#TECH">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/hafeez/ontologies/2015/5/untitled-ontology-7#CAR"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/hafeez/ontologies/2015/5/untitled-ontology-7#VHigh -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/hafeez/ontologies/2015/5/untitled-ontology-7#VHigh">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/hafeez/ontologies/2015/5/untitled-ontology-7#Buying"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/hafeez/ontologies/2015/5/untitled-ontology-7#acc -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/hafeez/ontologies/2015/5/untitled-ontology-7#acc">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/hafeez/ontologies/2015/5/untitled-ontology-7#CAR"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/hafeez/ontologies/2015/5/untitled-ontology-7#big -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/hafeez/ontologies/2015/5/untitled-ontology-7#big">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/hafeez/ontologies/2015/5/untitled-ontology-7#Lug_boot"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/hafeez/ontologies/2015/5/untitled-ontology-7#good -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/hafeez/ontologies/2015/5/untitled-ontology-7#good">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/hafeez/ontologies/2015/5/untitled-ontology-7#CAR"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/hafeez/ontologies/2015/5/untitled-ontology-7#high -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/hafeez/ontologies/2015/5/untitled-ontology-7#high">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/hafeez/ontologies/2015/5/untitled-ontology-7#Maint"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/hafeez/ontologies/2015/5/untitled-ontology-7#low -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/hafeez/ontologies/2015/5/untitled-ontology-7#low">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/hafeez/ontologies/2015/5/untitled-ontology-7#Buying"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/hafeez/ontologies/2015/5/untitled-ontology-7#med -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/hafeez/ontologies/2015/5/untitled-ontology-7#med">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/hafeez/ontologies/2015/5/untitled-ontology-7#Maint"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/hafeez/ontologies/2015/5/untitled-ontology-7#medium -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/hafeez/ontologies/2015/5/untitled-ontology-7#medium">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/hafeez/ontologies/2015/5/untitled-ontology-7#Lug_boot"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/hafeez/ontologies/2015/5/untitled-ontology-7#more -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/hafeez/ontologies/2015/5/untitled-ontology-7#more">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/hafeez/ontologies/2015/5/untitled-ontology-7#Persons"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/hafeez/ontologies/2015/5/untitled-ontology-7#small -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/hafeez/ontologies/2015/5/untitled-ontology-7#small">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/hafeez/ontologies/2015/5/untitled-ontology-7#Lug_boot"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/hafeez/ontologies/2015/5/untitled-ontology-7#unacc -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/hafeez/ontologies/2015/5/untitled-ontology-7#unacc">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/hafeez/ontologies/2015/5/untitled-ontology-7#CAR"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/hafeez/ontologies/2015/5/untitled-ontology-7#v-good -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/hafeez/ontologies/2015/5/untitled-ontology-7#v-good">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/hafeez/ontologies/2015/5/untitled-ontology-7#CAR"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/hafeez/ontologies/2015/5/untitled-ontology-7#vHIgh -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/hafeez/ontologies/2015/5/untitled-ontology-7#vHIgh">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/hafeez/ontologies/2015/5/untitled-ontology-7#Maint"/>
+    </owl:Class>
+</rdf:RDF>
+
+
+
+<!-- Generated by the OWL API (version 3.4.2) http://owlapi.sourceforge.net -->
+

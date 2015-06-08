@@ -1,0 +1,424 @@
+<?xml version="1.0"?>
+
+
+<!DOCTYPE rdf:RDF [
+    <!ENTITY owl "http://www.w3.org/2002/07/owl#" >
+    <!ENTITY xsd "http://www.w3.org/2001/XMLSchema#" >
+    <!ENTITY rdfs "http://www.w3.org/2000/01/rdf-schema#" >
+    <!ENTITY rdf "http://www.w3.org/1999/02/22-rdf-syntax-ns#" >
+]>
+
+
+<rdf:RDF xmlns="http://www.semanticweb.org/hafeez/ontologies/2015/5/untitled-ontology-9#"
+     xml:base="http://www.semanticweb.org/hafeez/ontologies/2015/5/untitled-ontology-9"
+     xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+     xmlns:owl="http://www.w3.org/2002/07/owl#"
+     xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+     xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
+    <owl:Ontology rdf:about="http://www.semanticweb.org/hafeez/ontologies/2015/5/untitled-ontology-9"/>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Classes
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://www.semanticweb.org/hafeez/ontologies/2015/5/untitled-ontology-9#1 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/hafeez/ontologies/2015/5/untitled-ontology-9#1">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/hafeez/ontologies/2015/5/untitled-ontology-9#Children"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/hafeez/ontologies/2015/5/untitled-ontology-9#2 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/hafeez/ontologies/2015/5/untitled-ontology-9#2">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/hafeez/ontologies/2015/5/untitled-ontology-9#Children"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/hafeez/ontologies/2015/5/untitled-ontology-9#3 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/hafeez/ontologies/2015/5/untitled-ontology-9#3">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/hafeez/ontologies/2015/5/untitled-ontology-9#Children"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/hafeez/ontologies/2015/5/untitled-ontology-9#Children -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/hafeez/ontologies/2015/5/untitled-ontology-9#Children">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/hafeez/ontologies/2015/5/untitled-ontology-9#Structure"/>
+        <owl:disjointWith rdf:resource="http://www.semanticweb.org/hafeez/ontologies/2015/5/untitled-ontology-9#Form"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/hafeez/ontologies/2015/5/untitled-ontology-9#Convenient -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/hafeez/ontologies/2015/5/untitled-ontology-9#Convenient">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/hafeez/ontologies/2015/5/untitled-ontology-9#Finance"/>
+        <owl:disjointWith rdf:resource="http://www.semanticweb.org/hafeez/ontologies/2015/5/untitled-ontology-9#Inconvenient"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/hafeez/ontologies/2015/5/untitled-ontology-9#Employ -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/hafeez/ontologies/2015/5/untitled-ontology-9#Employ"/>
+    
+
+
+    <!-- http://www.semanticweb.org/hafeez/ontologies/2015/5/untitled-ontology-9#Finance -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/hafeez/ontologies/2015/5/untitled-ontology-9#Finance">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/hafeez/ontologies/2015/5/untitled-ontology-9#STRUCT_FINAN"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/hafeez/ontologies/2015/5/untitled-ontology-9#Form -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/hafeez/ontologies/2015/5/untitled-ontology-9#Form">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/hafeez/ontologies/2015/5/untitled-ontology-9#Structure"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/hafeez/ontologies/2015/5/untitled-ontology-9#Has_Nurs -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/hafeez/ontologies/2015/5/untitled-ontology-9#Has_Nurs">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/hafeez/ontologies/2015/5/untitled-ontology-9#Employ"/>
+        <owl:disjointWith rdf:resource="http://www.semanticweb.org/hafeez/ontologies/2015/5/untitled-ontology-9#Parents"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/hafeez/ontologies/2015/5/untitled-ontology-9#Housing -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/hafeez/ontologies/2015/5/untitled-ontology-9#Housing">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/hafeez/ontologies/2015/5/untitled-ontology-9#STRUCT_FINAN"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/hafeez/ontologies/2015/5/untitled-ontology-9#Inconvenient -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/hafeez/ontologies/2015/5/untitled-ontology-9#Inconvenient">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/hafeez/ontologies/2015/5/untitled-ontology-9#Finance"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/hafeez/ontologies/2015/5/untitled-ontology-9#Parents -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/hafeez/ontologies/2015/5/untitled-ontology-9#Parents">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/hafeez/ontologies/2015/5/untitled-ontology-9#Employ"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/hafeez/ontologies/2015/5/untitled-ontology-9#SOC_HEALTH -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/hafeez/ontologies/2015/5/untitled-ontology-9#SOC_HEALTH"/>
+    
+
+
+    <!-- http://www.semanticweb.org/hafeez/ontologies/2015/5/untitled-ontology-9#STRUCT_FINAN -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/hafeez/ontologies/2015/5/untitled-ontology-9#STRUCT_FINAN"/>
+    
+
+
+    <!-- http://www.semanticweb.org/hafeez/ontologies/2015/5/untitled-ontology-9#Structure -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/hafeez/ontologies/2015/5/untitled-ontology-9#Structure">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/hafeez/ontologies/2015/5/untitled-ontology-9#STRUCT_FINAN"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/hafeez/ontologies/2015/5/untitled-ontology-9#complete -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/hafeez/ontologies/2015/5/untitled-ontology-9#complete">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/hafeez/ontologies/2015/5/untitled-ontology-9#Form"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/hafeez/ontologies/2015/5/untitled-ontology-9#completed -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/hafeez/ontologies/2015/5/untitled-ontology-9#completed">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/hafeez/ontologies/2015/5/untitled-ontology-9#Form"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/hafeez/ontologies/2015/5/untitled-ontology-9#convenient. -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/hafeez/ontologies/2015/5/untitled-ontology-9#convenient.">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/hafeez/ontologies/2015/5/untitled-ontology-9#Housing"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/hafeez/ontologies/2015/5/untitled-ontology-9#critical -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/hafeez/ontologies/2015/5/untitled-ontology-9#critical">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/hafeez/ontologies/2015/5/untitled-ontology-9#Has_Nurs"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/hafeez/ontologies/2015/5/untitled-ontology-9#critical. -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/hafeez/ontologies/2015/5/untitled-ontology-9#critical.">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/hafeez/ontologies/2015/5/untitled-ontology-9#Housing"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/hafeez/ontologies/2015/5/untitled-ontology-9#foster -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/hafeez/ontologies/2015/5/untitled-ontology-9#foster">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/hafeez/ontologies/2015/5/untitled-ontology-9#Form"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/hafeez/ontologies/2015/5/untitled-ontology-9#great_pret -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/hafeez/ontologies/2015/5/untitled-ontology-9#great_pret">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/hafeez/ontologies/2015/5/untitled-ontology-9#Parents"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/hafeez/ontologies/2015/5/untitled-ontology-9#health -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/hafeez/ontologies/2015/5/untitled-ontology-9#health">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/hafeez/ontologies/2015/5/untitled-ontology-9#SOC_HEALTH"/>
+        <owl:disjointWith rdf:resource="http://www.semanticweb.org/hafeez/ontologies/2015/5/untitled-ontology-9#social"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/hafeez/ontologies/2015/5/untitled-ontology-9#improper -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/hafeez/ontologies/2015/5/untitled-ontology-9#improper">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/hafeez/ontologies/2015/5/untitled-ontology-9#Has_Nurs"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/hafeez/ontologies/2015/5/untitled-ontology-9#incomplete -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/hafeez/ontologies/2015/5/untitled-ontology-9#incomplete">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/hafeez/ontologies/2015/5/untitled-ontology-9#Form"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/hafeez/ontologies/2015/5/untitled-ontology-9#less_conv. -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/hafeez/ontologies/2015/5/untitled-ontology-9#less_conv.">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/hafeez/ontologies/2015/5/untitled-ontology-9#Housing"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/hafeez/ontologies/2015/5/untitled-ontology-9#less_proper -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/hafeez/ontologies/2015/5/untitled-ontology-9#less_proper">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/hafeez/ontologies/2015/5/untitled-ontology-9#Has_Nurs"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/hafeez/ontologies/2015/5/untitled-ontology-9#more -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/hafeez/ontologies/2015/5/untitled-ontology-9#more">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/hafeez/ontologies/2015/5/untitled-ontology-9#Children"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/hafeez/ontologies/2015/5/untitled-ontology-9#non-prob -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/hafeez/ontologies/2015/5/untitled-ontology-9#non-prob">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/hafeez/ontologies/2015/5/untitled-ontology-9#social"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/hafeez/ontologies/2015/5/untitled-ontology-9#not_recom -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/hafeez/ontologies/2015/5/untitled-ontology-9#not_recom">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/hafeez/ontologies/2015/5/untitled-ontology-9#health"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/hafeez/ontologies/2015/5/untitled-ontology-9#pretentious -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/hafeez/ontologies/2015/5/untitled-ontology-9#pretentious">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/hafeez/ontologies/2015/5/untitled-ontology-9#Parents"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/hafeez/ontologies/2015/5/untitled-ontology-9#priority -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/hafeez/ontologies/2015/5/untitled-ontology-9#priority">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/hafeez/ontologies/2015/5/untitled-ontology-9#health"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/hafeez/ontologies/2015/5/untitled-ontology-9#problematic -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/hafeez/ontologies/2015/5/untitled-ontology-9#problematic">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/hafeez/ontologies/2015/5/untitled-ontology-9#social"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/hafeez/ontologies/2015/5/untitled-ontology-9#proper -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/hafeez/ontologies/2015/5/untitled-ontology-9#proper">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/hafeez/ontologies/2015/5/untitled-ontology-9#Has_Nurs"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/hafeez/ontologies/2015/5/untitled-ontology-9#recommended -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/hafeez/ontologies/2015/5/untitled-ontology-9#recommended">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/hafeez/ontologies/2015/5/untitled-ontology-9#health"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/hafeez/ontologies/2015/5/untitled-ontology-9#slightly_prob -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/hafeez/ontologies/2015/5/untitled-ontology-9#slightly_prob">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/hafeez/ontologies/2015/5/untitled-ontology-9#social"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/hafeez/ontologies/2015/5/untitled-ontology-9#social -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/hafeez/ontologies/2015/5/untitled-ontology-9#social">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/hafeez/ontologies/2015/5/untitled-ontology-9#SOC_HEALTH"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/hafeez/ontologies/2015/5/untitled-ontology-9#usual -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/hafeez/ontologies/2015/5/untitled-ontology-9#usual">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/hafeez/ontologies/2015/5/untitled-ontology-9#Parents"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/hafeez/ontologies/2015/5/untitled-ontology-9#very_crit -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/hafeez/ontologies/2015/5/untitled-ontology-9#very_crit">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/hafeez/ontologies/2015/5/untitled-ontology-9#Has_Nurs"/>
+    </owl:Class>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // General axioms
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    <rdf:Description>
+        <rdf:type rdf:resource="&owl;AllDisjointClasses"/>
+        <owl:members rdf:parseType="Collection">
+            <rdf:Description rdf:about="http://www.semanticweb.org/hafeez/ontologies/2015/5/untitled-ontology-9#critical"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/hafeez/ontologies/2015/5/untitled-ontology-9#improper"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/hafeez/ontologies/2015/5/untitled-ontology-9#less_proper"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/hafeez/ontologies/2015/5/untitled-ontology-9#proper"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/hafeez/ontologies/2015/5/untitled-ontology-9#very_crit"/>
+        </owl:members>
+    </rdf:Description>
+    <rdf:Description>
+        <rdf:type rdf:resource="&owl;AllDisjointClasses"/>
+        <owl:members rdf:parseType="Collection">
+            <rdf:Description rdf:about="http://www.semanticweb.org/hafeez/ontologies/2015/5/untitled-ontology-9#not_recom"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/hafeez/ontologies/2015/5/untitled-ontology-9#priority"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/hafeez/ontologies/2015/5/untitled-ontology-9#recommended"/>
+        </owl:members>
+    </rdf:Description>
+    <rdf:Description>
+        <rdf:type rdf:resource="&owl;AllDisjointClasses"/>
+        <owl:members rdf:parseType="Collection">
+            <rdf:Description rdf:about="http://www.semanticweb.org/hafeez/ontologies/2015/5/untitled-ontology-9#non-prob"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/hafeez/ontologies/2015/5/untitled-ontology-9#problematic"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/hafeez/ontologies/2015/5/untitled-ontology-9#slightly_prob"/>
+        </owl:members>
+    </rdf:Description>
+    <rdf:Description>
+        <rdf:type rdf:resource="&owl;AllDisjointClasses"/>
+        <owl:members rdf:parseType="Collection">
+            <rdf:Description rdf:about="http://www.semanticweb.org/hafeez/ontologies/2015/5/untitled-ontology-9#great_pret"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/hafeez/ontologies/2015/5/untitled-ontology-9#pretentious"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/hafeez/ontologies/2015/5/untitled-ontology-9#usual"/>
+        </owl:members>
+    </rdf:Description>
+    <rdf:Description>
+        <rdf:type rdf:resource="&owl;AllDisjointClasses"/>
+        <owl:members rdf:parseType="Collection">
+            <rdf:Description rdf:about="http://www.semanticweb.org/hafeez/ontologies/2015/5/untitled-ontology-9#convenient."/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/hafeez/ontologies/2015/5/untitled-ontology-9#critical."/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/hafeez/ontologies/2015/5/untitled-ontology-9#less_conv."/>
+        </owl:members>
+    </rdf:Description>
+    <rdf:Description>
+        <rdf:type rdf:resource="&owl;AllDisjointClasses"/>
+        <owl:members rdf:parseType="Collection">
+            <rdf:Description rdf:about="http://www.semanticweb.org/hafeez/ontologies/2015/5/untitled-ontology-9#1"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/hafeez/ontologies/2015/5/untitled-ontology-9#2"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/hafeez/ontologies/2015/5/untitled-ontology-9#3"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/hafeez/ontologies/2015/5/untitled-ontology-9#more"/>
+        </owl:members>
+    </rdf:Description>
+    <rdf:Description>
+        <rdf:type rdf:resource="&owl;AllDisjointClasses"/>
+        <owl:members rdf:parseType="Collection">
+            <rdf:Description rdf:about="http://www.semanticweb.org/hafeez/ontologies/2015/5/untitled-ontology-9#Finance"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/hafeez/ontologies/2015/5/untitled-ontology-9#Housing"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/hafeez/ontologies/2015/5/untitled-ontology-9#Structure"/>
+        </owl:members>
+    </rdf:Description>
+    <rdf:Description>
+        <rdf:type rdf:resource="&owl;AllDisjointClasses"/>
+        <owl:members rdf:parseType="Collection">
+            <rdf:Description rdf:about="http://www.semanticweb.org/hafeez/ontologies/2015/5/untitled-ontology-9#complete"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/hafeez/ontologies/2015/5/untitled-ontology-9#completed"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/hafeez/ontologies/2015/5/untitled-ontology-9#foster"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/hafeez/ontologies/2015/5/untitled-ontology-9#incomplete"/>
+        </owl:members>
+    </rdf:Description>
+</rdf:RDF>
+
+
+
+<!-- Generated by the OWL API (version 3.4.2) http://owlapi.sourceforge.net -->
+

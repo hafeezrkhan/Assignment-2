@@ -1,0 +1,772 @@
+<?xml version="1.0"?>
+
+
+<!DOCTYPE rdf:RDF [
+    <!ENTITY owl "http://www.w3.org/2002/07/owl#" >
+    <!ENTITY xsd "http://www.w3.org/2001/XMLSchema#" >
+    <!ENTITY rdfs "http://www.w3.org/2000/01/rdf-schema#" >
+    <!ENTITY rdf "http://www.w3.org/1999/02/22-rdf-syntax-ns#" >
+]>
+
+
+<rdf:RDF xmlns="http://www.semanticweb.org/hafeez/ontologies/2015/5/untitled-ontology-8#"
+     xml:base="http://www.semanticweb.org/hafeez/ontologies/2015/5/untitled-ontology-8"
+     xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+     xmlns:owl="http://www.w3.org/2002/07/owl#"
+     xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+     xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
+    <owl:Ontology rdf:about="http://www.semanticweb.org/hafeez/ontologies/2015/5/untitled-ontology-8"/>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Classes
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://www.semanticweb.org/hafeez/ontologies/2015/5/untitled-ontology-8#0+Catholic -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/hafeez/ontologies/2015/5/untitled-ontology-8#0+Catholic">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/hafeez/ontologies/2015/5/untitled-ontology-8#Religion"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/hafeez/ontologies/2015/5/untitled-ontology-8#0=If_Black_Abcent -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/hafeez/ontologies/2015/5/untitled-ontology-8#0=If_Black_Abcent">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/hafeez/ontologies/2015/5/untitled-ontology-8#Black"/>
+        <owl:disjointWith rdf:resource="http://www.semanticweb.org/hafeez/ontologies/2015/5/untitled-ontology-8#1=If_Black_Present"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/hafeez/ontologies/2015/5/untitled-ontology-8#0=If_Blue_Abcent -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/hafeez/ontologies/2015/5/untitled-ontology-8#0=If_Blue_Abcent">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/hafeez/ontologies/2015/5/untitled-ontology-8#Blue"/>
+        <owl:disjointWith rdf:resource="http://www.semanticweb.org/hafeez/ontologies/2015/5/untitled-ontology-8#1=If_Blue_Present"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/hafeez/ontologies/2015/5/untitled-ontology-8#0=If_Gold_Abcent -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/hafeez/ontologies/2015/5/untitled-ontology-8#0=If_Gold_Abcent">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/hafeez/ontologies/2015/5/untitled-ontology-8#Gold"/>
+        <owl:disjointWith rdf:resource="http://www.semanticweb.org/hafeez/ontologies/2015/5/untitled-ontology-8#1=If_Gold_Present"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/hafeez/ontologies/2015/5/untitled-ontology-8#0=If_Green_Abcent -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/hafeez/ontologies/2015/5/untitled-ontology-8#0=If_Green_Abcent">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/hafeez/ontologies/2015/5/untitled-ontology-8#Green"/>
+        <owl:disjointWith rdf:resource="http://www.semanticweb.org/hafeez/ontologies/2015/5/untitled-ontology-8#1=If_Green_Present"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/hafeez/ontologies/2015/5/untitled-ontology-8#0=If_Orange_Abcent -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/hafeez/ontologies/2015/5/untitled-ontology-8#0=If_Orange_Abcent">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/hafeez/ontologies/2015/5/untitled-ontology-8#Orange"/>
+        <owl:disjointWith rdf:resource="http://www.semanticweb.org/hafeez/ontologies/2015/5/untitled-ontology-8#1=If_Orange_Present"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/hafeez/ontologies/2015/5/untitled-ontology-8#0=If_Red_Abcent -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/hafeez/ontologies/2015/5/untitled-ontology-8#0=If_Red_Abcent">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/hafeez/ontologies/2015/5/untitled-ontology-8#Red"/>
+        <owl:disjointWith rdf:resource="http://www.semanticweb.org/hafeez/ontologies/2015/5/untitled-ontology-8#1=If_Red_Present"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/hafeez/ontologies/2015/5/untitled-ontology-8#0=If_White_Abcent -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/hafeez/ontologies/2015/5/untitled-ontology-8#0=If_White_Abcent">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/hafeez/ontologies/2015/5/untitled-ontology-8#White"/>
+        <owl:disjointWith rdf:resource="http://www.semanticweb.org/hafeez/ontologies/2015/5/untitled-ontology-8#1=If_White_Present"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/hafeez/ontologies/2015/5/untitled-ontology-8#0=No_Animate_Image -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/hafeez/ontologies/2015/5/untitled-ontology-8#0=No_Animate_Image">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/hafeez/ontologies/2015/5/untitled-ontology-8#Animate"/>
+        <owl:disjointWith rdf:resource="http://www.semanticweb.org/hafeez/ontologies/2015/5/untitled-ontology-8#1=Animate_Image"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/hafeez/ontologies/2015/5/untitled-ontology-8#0=No_Animate_Image. -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/hafeez/ontologies/2015/5/untitled-ontology-8#0=No_Animate_Image.">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/hafeez/ontologies/2015/5/untitled-ontology-8#Icon"/>
+        <owl:disjointWith rdf:resource="http://www.semanticweb.org/hafeez/ontologies/2015/5/untitled-ontology-8#1=Animate_Image."/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/hafeez/ontologies/2015/5/untitled-ontology-8#0=No_Crescent -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/hafeez/ontologies/2015/5/untitled-ontology-8#0=No_Crescent">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/hafeez/ontologies/2015/5/untitled-ontology-8#Crescent"/>
+        <owl:disjointWith rdf:resource="http://www.semanticweb.org/hafeez/ontologies/2015/5/untitled-ontology-8#1=If_Crescent"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/hafeez/ontologies/2015/5/untitled-ontology-8#0=No_Triangle -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/hafeez/ontologies/2015/5/untitled-ontology-8#0=No_Triangle">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/hafeez/ontologies/2015/5/untitled-ontology-8#Triangle"/>
+        <owl:disjointWith rdf:resource="http://www.semanticweb.org/hafeez/ontologies/2015/5/untitled-ontology-8#1=If_Triangle"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/hafeez/ontologies/2015/5/untitled-ontology-8#10=Others -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/hafeez/ontologies/2015/5/untitled-ontology-8#10=Others">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/hafeez/ontologies/2015/5/untitled-ontology-8#Language"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/hafeez/ontologies/2015/5/untitled-ontology-8#1=Animate_Image -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/hafeez/ontologies/2015/5/untitled-ontology-8#1=Animate_Image">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/hafeez/ontologies/2015/5/untitled-ontology-8#Animate"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/hafeez/ontologies/2015/5/untitled-ontology-8#1=Animate_Image. -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/hafeez/ontologies/2015/5/untitled-ontology-8#1=Animate_Image.">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/hafeez/ontologies/2015/5/untitled-ontology-8#Icon"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/hafeez/ontologies/2015/5/untitled-ontology-8#1=English -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/hafeez/ontologies/2015/5/untitled-ontology-8#1=English">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/hafeez/ontologies/2015/5/untitled-ontology-8#Language"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/hafeez/ontologies/2015/5/untitled-ontology-8#1=If_Black_Present -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/hafeez/ontologies/2015/5/untitled-ontology-8#1=If_Black_Present">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/hafeez/ontologies/2015/5/untitled-ontology-8#Black"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/hafeez/ontologies/2015/5/untitled-ontology-8#1=If_Blue_Present -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/hafeez/ontologies/2015/5/untitled-ontology-8#1=If_Blue_Present">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/hafeez/ontologies/2015/5/untitled-ontology-8#Blue"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/hafeez/ontologies/2015/5/untitled-ontology-8#1=If_Crescent -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/hafeez/ontologies/2015/5/untitled-ontology-8#1=If_Crescent">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/hafeez/ontologies/2015/5/untitled-ontology-8#Crescent"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/hafeez/ontologies/2015/5/untitled-ontology-8#1=If_Gold_Present -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/hafeez/ontologies/2015/5/untitled-ontology-8#1=If_Gold_Present">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/hafeez/ontologies/2015/5/untitled-ontology-8#Gold"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/hafeez/ontologies/2015/5/untitled-ontology-8#1=If_Green_Present -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/hafeez/ontologies/2015/5/untitled-ontology-8#1=If_Green_Present">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/hafeez/ontologies/2015/5/untitled-ontology-8#Green"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/hafeez/ontologies/2015/5/untitled-ontology-8#1=If_Orange_Present -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/hafeez/ontologies/2015/5/untitled-ontology-8#1=If_Orange_Present">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/hafeez/ontologies/2015/5/untitled-ontology-8#Orange"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/hafeez/ontologies/2015/5/untitled-ontology-8#1=If_Red_Present -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/hafeez/ontologies/2015/5/untitled-ontology-8#1=If_Red_Present">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/hafeez/ontologies/2015/5/untitled-ontology-8#Red"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/hafeez/ontologies/2015/5/untitled-ontology-8#1=If_Triangle -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/hafeez/ontologies/2015/5/untitled-ontology-8#1=If_Triangle">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/hafeez/ontologies/2015/5/untitled-ontology-8#Triangle"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/hafeez/ontologies/2015/5/untitled-ontology-8#1=If_White_Present -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/hafeez/ontologies/2015/5/untitled-ontology-8#1=If_White_Present">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/hafeez/ontologies/2015/5/untitled-ontology-8#White"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/hafeez/ontologies/2015/5/untitled-ontology-8#1=N.America -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/hafeez/ontologies/2015/5/untitled-ontology-8#1=N.America">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/hafeez/ontologies/2015/5/untitled-ontology-8#landmass"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/hafeez/ontologies/2015/5/untitled-ontology-8#1=NE -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/hafeez/ontologies/2015/5/untitled-ontology-8#1=NE">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/hafeez/ontologies/2015/5/untitled-ontology-8#Zone"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/hafeez/ontologies/2015/5/untitled-ontology-8#1=Other_Christian -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/hafeez/ontologies/2015/5/untitled-ontology-8#1=Other_Christian">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/hafeez/ontologies/2015/5/untitled-ontology-8#Religion"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/hafeez/ontologies/2015/5/untitled-ontology-8#2=Muslim -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/hafeez/ontologies/2015/5/untitled-ontology-8#2=Muslim">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/hafeez/ontologies/2015/5/untitled-ontology-8#Religion"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/hafeez/ontologies/2015/5/untitled-ontology-8#2=S.America -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/hafeez/ontologies/2015/5/untitled-ontology-8#2=S.America">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/hafeez/ontologies/2015/5/untitled-ontology-8#landmass"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/hafeez/ontologies/2015/5/untitled-ontology-8#2=SE -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/hafeez/ontologies/2015/5/untitled-ontology-8#2=SE">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/hafeez/ontologies/2015/5/untitled-ontology-8#Zone"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/hafeez/ontologies/2015/5/untitled-ontology-8#2=Spanish -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/hafeez/ontologies/2015/5/untitled-ontology-8#2=Spanish">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/hafeez/ontologies/2015/5/untitled-ontology-8#Language"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/hafeez/ontologies/2015/5/untitled-ontology-8#3=Buddhist -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/hafeez/ontologies/2015/5/untitled-ontology-8#3=Buddhist">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/hafeez/ontologies/2015/5/untitled-ontology-8#Religion"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/hafeez/ontologies/2015/5/untitled-ontology-8#3=Europe -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/hafeez/ontologies/2015/5/untitled-ontology-8#3=Europe">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/hafeez/ontologies/2015/5/untitled-ontology-8#landmass"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/hafeez/ontologies/2015/5/untitled-ontology-8#3=French -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/hafeez/ontologies/2015/5/untitled-ontology-8#3=French">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/hafeez/ontologies/2015/5/untitled-ontology-8#Language"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/hafeez/ontologies/2015/5/untitled-ontology-8#3=SW -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/hafeez/ontologies/2015/5/untitled-ontology-8#3=SW">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/hafeez/ontologies/2015/5/untitled-ontology-8#Zone"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/hafeez/ontologies/2015/5/untitled-ontology-8#4=Africa -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/hafeez/ontologies/2015/5/untitled-ontology-8#4=Africa">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/hafeez/ontologies/2015/5/untitled-ontology-8#landmass"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/hafeez/ontologies/2015/5/untitled-ontology-8#4=German -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/hafeez/ontologies/2015/5/untitled-ontology-8#4=German">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/hafeez/ontologies/2015/5/untitled-ontology-8#Language"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/hafeez/ontologies/2015/5/untitled-ontology-8#4=Hindu -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/hafeez/ontologies/2015/5/untitled-ontology-8#4=Hindu">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/hafeez/ontologies/2015/5/untitled-ontology-8#Religion"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/hafeez/ontologies/2015/5/untitled-ontology-8#4=NW -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/hafeez/ontologies/2015/5/untitled-ontology-8#4=NW">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/hafeez/ontologies/2015/5/untitled-ontology-8#Zone"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/hafeez/ontologies/2015/5/untitled-ontology-8#5=Asia -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/hafeez/ontologies/2015/5/untitled-ontology-8#5=Asia">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/hafeez/ontologies/2015/5/untitled-ontology-8#landmass"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/hafeez/ontologies/2015/5/untitled-ontology-8#5=Ethnic -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/hafeez/ontologies/2015/5/untitled-ontology-8#5=Ethnic">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/hafeez/ontologies/2015/5/untitled-ontology-8#Religion"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/hafeez/ontologies/2015/5/untitled-ontology-8#5=Slavic -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/hafeez/ontologies/2015/5/untitled-ontology-8#5=Slavic">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/hafeez/ontologies/2015/5/untitled-ontology-8#Language"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/hafeez/ontologies/2015/5/untitled-ontology-8#6=Marxist -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/hafeez/ontologies/2015/5/untitled-ontology-8#6=Marxist">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/hafeez/ontologies/2015/5/untitled-ontology-8#Religion"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/hafeez/ontologies/2015/5/untitled-ontology-8#6=Oceania -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/hafeez/ontologies/2015/5/untitled-ontology-8#6=Oceania">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/hafeez/ontologies/2015/5/untitled-ontology-8#landmass"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/hafeez/ontologies/2015/5/untitled-ontology-8#6=Other_Indo-European -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/hafeez/ontologies/2015/5/untitled-ontology-8#6=Other_Indo-European">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/hafeez/ontologies/2015/5/untitled-ontology-8#Language"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/hafeez/ontologies/2015/5/untitled-ontology-8#7=Chinese -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/hafeez/ontologies/2015/5/untitled-ontology-8#7=Chinese">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/hafeez/ontologies/2015/5/untitled-ontology-8#Language"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/hafeez/ontologies/2015/5/untitled-ontology-8#7=Others -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/hafeez/ontologies/2015/5/untitled-ontology-8#7=Others">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/hafeez/ontologies/2015/5/untitled-ontology-8#Religion"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/hafeez/ontologies/2015/5/untitled-ontology-8#8=Arabic -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/hafeez/ontologies/2015/5/untitled-ontology-8#8=Arabic">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/hafeez/ontologies/2015/5/untitled-ontology-8#Language"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/hafeez/ontologies/2015/5/untitled-ontology-8#9=Japanese/Turkish/Finnish/Magyar -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/hafeez/ontologies/2015/5/untitled-ontology-8#9=Japanese/Turkish/Finnish/Magyar">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/hafeez/ontologies/2015/5/untitled-ontology-8#Language"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/hafeez/ontologies/2015/5/untitled-ontology-8#Animate -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/hafeez/ontologies/2015/5/untitled-ontology-8#Animate">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/hafeez/ontologies/2015/5/untitled-ontology-8#Flags"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/hafeez/ontologies/2015/5/untitled-ontology-8#Area -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/hafeez/ontologies/2015/5/untitled-ontology-8#Area">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/hafeez/ontologies/2015/5/untitled-ontology-8#Flags"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/hafeez/ontologies/2015/5/untitled-ontology-8#Bars -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/hafeez/ontologies/2015/5/untitled-ontology-8#Bars">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/hafeez/ontologies/2015/5/untitled-ontology-8#Flags"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/hafeez/ontologies/2015/5/untitled-ontology-8#Black -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/hafeez/ontologies/2015/5/untitled-ontology-8#Black">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/hafeez/ontologies/2015/5/untitled-ontology-8#Flags"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/hafeez/ontologies/2015/5/untitled-ontology-8#Blue -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/hafeez/ontologies/2015/5/untitled-ontology-8#Blue">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/hafeez/ontologies/2015/5/untitled-ontology-8#Flags"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/hafeez/ontologies/2015/5/untitled-ontology-8#Botright -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/hafeez/ontologies/2015/5/untitled-ontology-8#Botright">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/hafeez/ontologies/2015/5/untitled-ontology-8#Flags"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/hafeez/ontologies/2015/5/untitled-ontology-8#Circles -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/hafeez/ontologies/2015/5/untitled-ontology-8#Circles">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/hafeez/ontologies/2015/5/untitled-ontology-8#Flags"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/hafeez/ontologies/2015/5/untitled-ontology-8#Colors -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/hafeez/ontologies/2015/5/untitled-ontology-8#Colors">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/hafeez/ontologies/2015/5/untitled-ontology-8#Flags"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/hafeez/ontologies/2015/5/untitled-ontology-8#Crescent -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/hafeez/ontologies/2015/5/untitled-ontology-8#Crescent">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/hafeez/ontologies/2015/5/untitled-ontology-8#Flags"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/hafeez/ontologies/2015/5/untitled-ontology-8#Crosses -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/hafeez/ontologies/2015/5/untitled-ontology-8#Crosses">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/hafeez/ontologies/2015/5/untitled-ontology-8#Flags"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/hafeez/ontologies/2015/5/untitled-ontology-8#Flags -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/hafeez/ontologies/2015/5/untitled-ontology-8#Flags"/>
+    
+
+
+    <!-- http://www.semanticweb.org/hafeez/ontologies/2015/5/untitled-ontology-8#Gold -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/hafeez/ontologies/2015/5/untitled-ontology-8#Gold">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/hafeez/ontologies/2015/5/untitled-ontology-8#Flags"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/hafeez/ontologies/2015/5/untitled-ontology-8#Green -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/hafeez/ontologies/2015/5/untitled-ontology-8#Green">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/hafeez/ontologies/2015/5/untitled-ontology-8#Flags"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/hafeez/ontologies/2015/5/untitled-ontology-8#Icon -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/hafeez/ontologies/2015/5/untitled-ontology-8#Icon">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/hafeez/ontologies/2015/5/untitled-ontology-8#Flags"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/hafeez/ontologies/2015/5/untitled-ontology-8#Language -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/hafeez/ontologies/2015/5/untitled-ontology-8#Language">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/hafeez/ontologies/2015/5/untitled-ontology-8#Flags"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/hafeez/ontologies/2015/5/untitled-ontology-8#Mainhue -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/hafeez/ontologies/2015/5/untitled-ontology-8#Mainhue">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/hafeez/ontologies/2015/5/untitled-ontology-8#Flags"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/hafeez/ontologies/2015/5/untitled-ontology-8#Name -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/hafeez/ontologies/2015/5/untitled-ontology-8#Name">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/hafeez/ontologies/2015/5/untitled-ontology-8#Flags"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/hafeez/ontologies/2015/5/untitled-ontology-8#Orange -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/hafeez/ontologies/2015/5/untitled-ontology-8#Orange">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/hafeez/ontologies/2015/5/untitled-ontology-8#Flags"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/hafeez/ontologies/2015/5/untitled-ontology-8#Population -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/hafeez/ontologies/2015/5/untitled-ontology-8#Population">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/hafeez/ontologies/2015/5/untitled-ontology-8#Flags"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/hafeez/ontologies/2015/5/untitled-ontology-8#Quarters -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/hafeez/ontologies/2015/5/untitled-ontology-8#Quarters">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/hafeez/ontologies/2015/5/untitled-ontology-8#Flags"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/hafeez/ontologies/2015/5/untitled-ontology-8#Red -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/hafeez/ontologies/2015/5/untitled-ontology-8#Red">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/hafeez/ontologies/2015/5/untitled-ontology-8#Flags"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/hafeez/ontologies/2015/5/untitled-ontology-8#Religion -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/hafeez/ontologies/2015/5/untitled-ontology-8#Religion">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/hafeez/ontologies/2015/5/untitled-ontology-8#Flags"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/hafeez/ontologies/2015/5/untitled-ontology-8#Saltires -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/hafeez/ontologies/2015/5/untitled-ontology-8#Saltires">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/hafeez/ontologies/2015/5/untitled-ontology-8#Flags"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/hafeez/ontologies/2015/5/untitled-ontology-8#Stripes -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/hafeez/ontologies/2015/5/untitled-ontology-8#Stripes">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/hafeez/ontologies/2015/5/untitled-ontology-8#Flags"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/hafeez/ontologies/2015/5/untitled-ontology-8#Sunstars -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/hafeez/ontologies/2015/5/untitled-ontology-8#Sunstars">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/hafeez/ontologies/2015/5/untitled-ontology-8#Flags"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/hafeez/ontologies/2015/5/untitled-ontology-8#Text -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/hafeez/ontologies/2015/5/untitled-ontology-8#Text">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/hafeez/ontologies/2015/5/untitled-ontology-8#Flags"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/hafeez/ontologies/2015/5/untitled-ontology-8#Topleft -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/hafeez/ontologies/2015/5/untitled-ontology-8#Topleft">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/hafeez/ontologies/2015/5/untitled-ontology-8#Flags"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/hafeez/ontologies/2015/5/untitled-ontology-8#Triangle -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/hafeez/ontologies/2015/5/untitled-ontology-8#Triangle">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/hafeez/ontologies/2015/5/untitled-ontology-8#Flags"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/hafeez/ontologies/2015/5/untitled-ontology-8#White -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/hafeez/ontologies/2015/5/untitled-ontology-8#White">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/hafeez/ontologies/2015/5/untitled-ontology-8#Flags"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/hafeez/ontologies/2015/5/untitled-ontology-8#Zone -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/hafeez/ontologies/2015/5/untitled-ontology-8#Zone">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/hafeez/ontologies/2015/5/untitled-ontology-8#Flags"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/hafeez/ontologies/2015/5/untitled-ontology-8#cebtral_hue -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/hafeez/ontologies/2015/5/untitled-ontology-8#cebtral_hue">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/hafeez/ontologies/2015/5/untitled-ontology-8#Mainhue"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/hafeez/ontologies/2015/5/untitled-ontology-8#landmass -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/hafeez/ontologies/2015/5/untitled-ontology-8#landmass">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/hafeez/ontologies/2015/5/untitled-ontology-8#Flags"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/hafeez/ontologies/2015/5/untitled-ontology-8#leftmost_hue -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/hafeez/ontologies/2015/5/untitled-ontology-8#leftmost_hue">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/hafeez/ontologies/2015/5/untitled-ontology-8#Mainhue"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/hafeez/ontologies/2015/5/untitled-ontology-8#topmost_hue -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/hafeez/ontologies/2015/5/untitled-ontology-8#topmost_hue">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/hafeez/ontologies/2015/5/untitled-ontology-8#Mainhue"/>
+    </owl:Class>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // General axioms
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    <rdf:Description>
+        <rdf:type rdf:resource="&owl;AllDisjointClasses"/>
+        <owl:members rdf:parseType="Collection">
+            <rdf:Description rdf:about="http://www.semanticweb.org/hafeez/ontologies/2015/5/untitled-ontology-8#0+Catholic"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/hafeez/ontologies/2015/5/untitled-ontology-8#1=Other_Christian"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/hafeez/ontologies/2015/5/untitled-ontology-8#2=Muslim"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/hafeez/ontologies/2015/5/untitled-ontology-8#3=Buddhist"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/hafeez/ontologies/2015/5/untitled-ontology-8#4=Hindu"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/hafeez/ontologies/2015/5/untitled-ontology-8#5=Ethnic"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/hafeez/ontologies/2015/5/untitled-ontology-8#6=Marxist"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/hafeez/ontologies/2015/5/untitled-ontology-8#7=Others"/>
+        </owl:members>
+    </rdf:Description>
+    <rdf:Description>
+        <rdf:type rdf:resource="&owl;AllDisjointClasses"/>
+        <owl:members rdf:parseType="Collection">
+            <rdf:Description rdf:about="http://www.semanticweb.org/hafeez/ontologies/2015/5/untitled-ontology-8#10=Others"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/hafeez/ontologies/2015/5/untitled-ontology-8#1=English"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/hafeez/ontologies/2015/5/untitled-ontology-8#2=Spanish"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/hafeez/ontologies/2015/5/untitled-ontology-8#3=French"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/hafeez/ontologies/2015/5/untitled-ontology-8#4=German"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/hafeez/ontologies/2015/5/untitled-ontology-8#5=Slavic"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/hafeez/ontologies/2015/5/untitled-ontology-8#6=Other_Indo-European"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/hafeez/ontologies/2015/5/untitled-ontology-8#7=Chinese"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/hafeez/ontologies/2015/5/untitled-ontology-8#8=Arabic"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/hafeez/ontologies/2015/5/untitled-ontology-8#9=Japanese/Turkish/Finnish/Magyar"/>
+        </owl:members>
+    </rdf:Description>
+    <rdf:Description>
+        <rdf:type rdf:resource="&owl;AllDisjointClasses"/>
+        <owl:members rdf:parseType="Collection">
+            <rdf:Description rdf:about="http://www.semanticweb.org/hafeez/ontologies/2015/5/untitled-ontology-8#cebtral_hue"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/hafeez/ontologies/2015/5/untitled-ontology-8#leftmost_hue"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/hafeez/ontologies/2015/5/untitled-ontology-8#topmost_hue"/>
+        </owl:members>
+    </rdf:Description>
+    <rdf:Description>
+        <rdf:type rdf:resource="&owl;AllDisjointClasses"/>
+        <owl:members rdf:parseType="Collection">
+            <rdf:Description rdf:about="http://www.semanticweb.org/hafeez/ontologies/2015/5/untitled-ontology-8#1=NE"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/hafeez/ontologies/2015/5/untitled-ontology-8#2=SE"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/hafeez/ontologies/2015/5/untitled-ontology-8#3=SW"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/hafeez/ontologies/2015/5/untitled-ontology-8#4=NW"/>
+        </owl:members>
+    </rdf:Description>
+</rdf:RDF>
+
+
+
+<!-- Generated by the OWL API (version 3.4.2) http://owlapi.sourceforge.net -->
+

@@ -1,0 +1,1389 @@
+<?xml version="1.0"?>
+
+
+<!DOCTYPE rdf:RDF [
+    <!ENTITY owl "http://www.w3.org/2002/07/owl#" >
+    <!ENTITY xsd "http://www.w3.org/2001/XMLSchema#" >
+    <!ENTITY rdfs "http://www.w3.org/2000/01/rdf-schema#" >
+    <!ENTITY rdf "http://www.w3.org/1999/02/22-rdf-syntax-ns#" >
+]>
+
+
+<rdf:RDF xmlns="http://www.semanticweb.org/hafeez/ontologies/2015/5/untitled-ontology-13#"
+     xml:base="http://www.semanticweb.org/hafeez/ontologies/2015/5/untitled-ontology-13"
+     xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+     xmlns:owl="http://www.w3.org/2002/07/owl#"
+     xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+     xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
+    <owl:Ontology rdf:about="http://www.semanticweb.org/hafeez/ontologies/2015/5/untitled-ontology-13"/>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Classes
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://www.semanticweb.org/hafeez/ontologies/2015/5/untitled-ontology-13#Black=_K -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/hafeez/ontologies/2015/5/untitled-ontology-13#Black=_K">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/hafeez/ontologies/2015/5/untitled-ontology-13#spore-print-color"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/hafeez/ontologies/2015/5/untitled-ontology-13#Black=k -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/hafeez/ontologies/2015/5/untitled-ontology-13#Black=k">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/hafeez/ontologies/2015/5/untitled-ontology-13#gill-color"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/hafeez/ontologies/2015/5/untitled-ontology-13#Brown=N -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/hafeez/ontologies/2015/5/untitled-ontology-13#Brown=N">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/hafeez/ontologies/2015/5/untitled-ontology-13#stalk-surface-above-ring"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/hafeez/ontologies/2015/5/untitled-ontology-13#Brown=N. -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/hafeez/ontologies/2015/5/untitled-ontology-13#Brown=N.">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/hafeez/ontologies/2015/5/untitled-ontology-13#stalk-surface-below-ring"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/hafeez/ontologies/2015/5/untitled-ontology-13#Brown=_N -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/hafeez/ontologies/2015/5/untitled-ontology-13#Brown=_N">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/hafeez/ontologies/2015/5/untitled-ontology-13#spore-print-color"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/hafeez/ontologies/2015/5/untitled-ontology-13#Brown=n -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/hafeez/ontologies/2015/5/untitled-ontology-13#Brown=n">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/hafeez/ontologies/2015/5/untitled-ontology-13#gill-color"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/hafeez/ontologies/2015/5/untitled-ontology-13#Buff=B -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/hafeez/ontologies/2015/5/untitled-ontology-13#Buff=B">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/hafeez/ontologies/2015/5/untitled-ontology-13#stalk-surface-above-ring"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/hafeez/ontologies/2015/5/untitled-ontology-13#Buff=B. -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/hafeez/ontologies/2015/5/untitled-ontology-13#Buff=B.">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/hafeez/ontologies/2015/5/untitled-ontology-13#stalk-surface-below-ring"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/hafeez/ontologies/2015/5/untitled-ontology-13#Buff=_B -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/hafeez/ontologies/2015/5/untitled-ontology-13#Buff=_B">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/hafeez/ontologies/2015/5/untitled-ontology-13#spore-print-color"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/hafeez/ontologies/2015/5/untitled-ontology-13#Buff=b -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/hafeez/ontologies/2015/5/untitled-ontology-13#Buff=b">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/hafeez/ontologies/2015/5/untitled-ontology-13#gill-color"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/hafeez/ontologies/2015/5/untitled-ontology-13#Chocholate=_H -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/hafeez/ontologies/2015/5/untitled-ontology-13#Chocholate=_H">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/hafeez/ontologies/2015/5/untitled-ontology-13#spore-print-color"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/hafeez/ontologies/2015/5/untitled-ontology-13#Chocholate=h -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/hafeez/ontologies/2015/5/untitled-ontology-13#Chocholate=h">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/hafeez/ontologies/2015/5/untitled-ontology-13#gill-color"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/hafeez/ontologies/2015/5/untitled-ontology-13#Cinnamon=C -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/hafeez/ontologies/2015/5/untitled-ontology-13#Cinnamon=C">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/hafeez/ontologies/2015/5/untitled-ontology-13#stalk-surface-above-ring"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/hafeez/ontologies/2015/5/untitled-ontology-13#Cinnamon=C. -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/hafeez/ontologies/2015/5/untitled-ontology-13#Cinnamon=C.">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/hafeez/ontologies/2015/5/untitled-ontology-13#stalk-surface-below-ring"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/hafeez/ontologies/2015/5/untitled-ontology-13#Fibrous=f -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/hafeez/ontologies/2015/5/untitled-ontology-13#Fibrous=f">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/hafeez/ontologies/2015/5/untitled-ontology-13#stalk-surface-above-ring"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/hafeez/ontologies/2015/5/untitled-ontology-13#Gray=G -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/hafeez/ontologies/2015/5/untitled-ontology-13#Gray=G">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/hafeez/ontologies/2015/5/untitled-ontology-13#stalk-surface-above-ring"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/hafeez/ontologies/2015/5/untitled-ontology-13#Gray=G. -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/hafeez/ontologies/2015/5/untitled-ontology-13#Gray=G.">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/hafeez/ontologies/2015/5/untitled-ontology-13#stalk-surface-below-ring"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/hafeez/ontologies/2015/5/untitled-ontology-13#Gray=g -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/hafeez/ontologies/2015/5/untitled-ontology-13#Gray=g">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/hafeez/ontologies/2015/5/untitled-ontology-13#gill-color"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/hafeez/ontologies/2015/5/untitled-ontology-13#Green=_R -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/hafeez/ontologies/2015/5/untitled-ontology-13#Green=_R">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/hafeez/ontologies/2015/5/untitled-ontology-13#spore-print-color"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/hafeez/ontologies/2015/5/untitled-ontology-13#Green=r -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/hafeez/ontologies/2015/5/untitled-ontology-13#Green=r">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/hafeez/ontologies/2015/5/untitled-ontology-13#gill-color"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/hafeez/ontologies/2015/5/untitled-ontology-13#Mushrooms -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/hafeez/ontologies/2015/5/untitled-ontology-13#Mushrooms"/>
+    
+
+
+    <!-- http://www.semanticweb.org/hafeez/ontologies/2015/5/untitled-ontology-13#None=n -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/hafeez/ontologies/2015/5/untitled-ontology-13#None=n">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/hafeez/ontologies/2015/5/untitled-ontology-13#ring-number"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/hafeez/ontologies/2015/5/untitled-ontology-13#One=o -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/hafeez/ontologies/2015/5/untitled-ontology-13#One=o">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/hafeez/ontologies/2015/5/untitled-ontology-13#ring-number"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/hafeez/ontologies/2015/5/untitled-ontology-13#Orange=O -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/hafeez/ontologies/2015/5/untitled-ontology-13#Orange=O">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/hafeez/ontologies/2015/5/untitled-ontology-13#stalk-surface-above-ring"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/hafeez/ontologies/2015/5/untitled-ontology-13#Orange=O. -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/hafeez/ontologies/2015/5/untitled-ontology-13#Orange=O.">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/hafeez/ontologies/2015/5/untitled-ontology-13#stalk-surface-below-ring"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/hafeez/ontologies/2015/5/untitled-ontology-13#Orange=_O -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/hafeez/ontologies/2015/5/untitled-ontology-13#Orange=_O">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/hafeez/ontologies/2015/5/untitled-ontology-13#spore-print-color"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/hafeez/ontologies/2015/5/untitled-ontology-13#Orange=opink=p -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/hafeez/ontologies/2015/5/untitled-ontology-13#Orange=opink=p">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/hafeez/ontologies/2015/5/untitled-ontology-13#gill-color"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/hafeez/ontologies/2015/5/untitled-ontology-13#Pink=P -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/hafeez/ontologies/2015/5/untitled-ontology-13#Pink=P">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/hafeez/ontologies/2015/5/untitled-ontology-13#stalk-surface-above-ring"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/hafeez/ontologies/2015/5/untitled-ontology-13#Pink=P. -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/hafeez/ontologies/2015/5/untitled-ontology-13#Pink=P.">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/hafeez/ontologies/2015/5/untitled-ontology-13#stalk-surface-below-ring"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/hafeez/ontologies/2015/5/untitled-ontology-13#Purple=_U -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/hafeez/ontologies/2015/5/untitled-ontology-13#Purple=_U">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/hafeez/ontologies/2015/5/untitled-ontology-13#spore-print-color"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/hafeez/ontologies/2015/5/untitled-ontology-13#Purple=u -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/hafeez/ontologies/2015/5/untitled-ontology-13#Purple=u">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/hafeez/ontologies/2015/5/untitled-ontology-13#gill-color"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/hafeez/ontologies/2015/5/untitled-ontology-13#Red=E -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/hafeez/ontologies/2015/5/untitled-ontology-13#Red=E">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/hafeez/ontologies/2015/5/untitled-ontology-13#stalk-surface-above-ring"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/hafeez/ontologies/2015/5/untitled-ontology-13#Red=E. -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/hafeez/ontologies/2015/5/untitled-ontology-13#Red=E.">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/hafeez/ontologies/2015/5/untitled-ontology-13#stalk-surface-below-ring"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/hafeez/ontologies/2015/5/untitled-ontology-13#Red=e -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/hafeez/ontologies/2015/5/untitled-ontology-13#Red=e">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/hafeez/ontologies/2015/5/untitled-ontology-13#gill-color"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/hafeez/ontologies/2015/5/untitled-ontology-13#Scaly=y -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/hafeez/ontologies/2015/5/untitled-ontology-13#Scaly=y">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/hafeez/ontologies/2015/5/untitled-ontology-13#stalk-surface-above-ring"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/hafeez/ontologies/2015/5/untitled-ontology-13#Silky=k -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/hafeez/ontologies/2015/5/untitled-ontology-13#Silky=k">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/hafeez/ontologies/2015/5/untitled-ontology-13#stalk-surface-above-ring"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/hafeez/ontologies/2015/5/untitled-ontology-13#Smooth=s -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/hafeez/ontologies/2015/5/untitled-ontology-13#Smooth=s">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/hafeez/ontologies/2015/5/untitled-ontology-13#stalk-surface-above-ring"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/hafeez/ontologies/2015/5/untitled-ontology-13#Two=t -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/hafeez/ontologies/2015/5/untitled-ontology-13#Two=t">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/hafeez/ontologies/2015/5/untitled-ontology-13#ring-number"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/hafeez/ontologies/2015/5/untitled-ontology-13#White=W -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/hafeez/ontologies/2015/5/untitled-ontology-13#White=W">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/hafeez/ontologies/2015/5/untitled-ontology-13#stalk-surface-above-ring"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/hafeez/ontologies/2015/5/untitled-ontology-13#White=W. -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/hafeez/ontologies/2015/5/untitled-ontology-13#White=W.">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/hafeez/ontologies/2015/5/untitled-ontology-13#stalk-surface-below-ring"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/hafeez/ontologies/2015/5/untitled-ontology-13#White=_W -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/hafeez/ontologies/2015/5/untitled-ontology-13#White=_W">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/hafeez/ontologies/2015/5/untitled-ontology-13#spore-print-color"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/hafeez/ontologies/2015/5/untitled-ontology-13#White=w -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/hafeez/ontologies/2015/5/untitled-ontology-13#White=w">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/hafeez/ontologies/2015/5/untitled-ontology-13#gill-color"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/hafeez/ontologies/2015/5/untitled-ontology-13#Yellow=Y -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/hafeez/ontologies/2015/5/untitled-ontology-13#Yellow=Y">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/hafeez/ontologies/2015/5/untitled-ontology-13#stalk-surface-above-ring"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/hafeez/ontologies/2015/5/untitled-ontology-13#Yellow=Y. -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/hafeez/ontologies/2015/5/untitled-ontology-13#Yellow=Y.">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/hafeez/ontologies/2015/5/untitled-ontology-13#stalk-surface-below-ring"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/hafeez/ontologies/2015/5/untitled-ontology-13#Yellow=_Y -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/hafeez/ontologies/2015/5/untitled-ontology-13#Yellow=_Y">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/hafeez/ontologies/2015/5/untitled-ontology-13#spore-print-color"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/hafeez/ontologies/2015/5/untitled-ontology-13#Yellow=y -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/hafeez/ontologies/2015/5/untitled-ontology-13#Yellow=y">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/hafeez/ontologies/2015/5/untitled-ontology-13#gill-color"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/hafeez/ontologies/2015/5/untitled-ontology-13#abundant=a -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/hafeez/ontologies/2015/5/untitled-ontology-13#abundant=a">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/hafeez/ontologies/2015/5/untitled-ontology-13#population"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/hafeez/ontologies/2015/5/untitled-ontology-13#almond=a -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/hafeez/ontologies/2015/5/untitled-ontology-13#almond=a">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/hafeez/ontologies/2015/5/untitled-ontology-13#odor"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/hafeez/ontologies/2015/5/untitled-ontology-13#anise=l -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/hafeez/ontologies/2015/5/untitled-ontology-13#anise=l">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/hafeez/ontologies/2015/5/untitled-ontology-13#odor"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/hafeez/ontologies/2015/5/untitled-ontology-13#attached=a -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/hafeez/ontologies/2015/5/untitled-ontology-13#attached=a">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/hafeez/ontologies/2015/5/untitled-ontology-13#gill-attachment"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/hafeez/ontologies/2015/5/untitled-ontology-13#bell=b -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/hafeez/ontologies/2015/5/untitled-ontology-13#bell=b">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/hafeez/ontologies/2015/5/untitled-ontology-13#cap-shape"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/hafeez/ontologies/2015/5/untitled-ontology-13#broad=b -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/hafeez/ontologies/2015/5/untitled-ontology-13#broad=b">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/hafeez/ontologies/2015/5/untitled-ontology-13#gill-size"/>
+        <owl:disjointWith rdf:resource="http://www.semanticweb.org/hafeez/ontologies/2015/5/untitled-ontology-13#narrow=n"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/hafeez/ontologies/2015/5/untitled-ontology-13#brown=N -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/hafeez/ontologies/2015/5/untitled-ontology-13#brown=N">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/hafeez/ontologies/2015/5/untitled-ontology-13#veil-color"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/hafeez/ontologies/2015/5/untitled-ontology-13#brown=n -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/hafeez/ontologies/2015/5/untitled-ontology-13#brown=n">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/hafeez/ontologies/2015/5/untitled-ontology-13#cap-color"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/hafeez/ontologies/2015/5/untitled-ontology-13#bruises -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/hafeez/ontologies/2015/5/untitled-ontology-13#bruises">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/hafeez/ontologies/2015/5/untitled-ontology-13#Mushrooms"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/hafeez/ontologies/2015/5/untitled-ontology-13#bruises=t -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/hafeez/ontologies/2015/5/untitled-ontology-13#bruises=t">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/hafeez/ontologies/2015/5/untitled-ontology-13#bruises"/>
+        <owl:disjointWith rdf:resource="http://www.semanticweb.org/hafeez/ontologies/2015/5/untitled-ontology-13#no=f"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/hafeez/ontologies/2015/5/untitled-ontology-13#buff=b -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/hafeez/ontologies/2015/5/untitled-ontology-13#buff=b">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/hafeez/ontologies/2015/5/untitled-ontology-13#cap-color"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/hafeez/ontologies/2015/5/untitled-ontology-13#bulbous=b -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/hafeez/ontologies/2015/5/untitled-ontology-13#bulbous=b">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/hafeez/ontologies/2015/5/untitled-ontology-13#stalk-root"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/hafeez/ontologies/2015/5/untitled-ontology-13#cap-color -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/hafeez/ontologies/2015/5/untitled-ontology-13#cap-color">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/hafeez/ontologies/2015/5/untitled-ontology-13#Mushrooms"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/hafeez/ontologies/2015/5/untitled-ontology-13#cap-shape -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/hafeez/ontologies/2015/5/untitled-ontology-13#cap-shape">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/hafeez/ontologies/2015/5/untitled-ontology-13#Mushrooms"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/hafeez/ontologies/2015/5/untitled-ontology-13#cap-surface -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/hafeez/ontologies/2015/5/untitled-ontology-13#cap-surface">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/hafeez/ontologies/2015/5/untitled-ontology-13#Mushrooms"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/hafeez/ontologies/2015/5/untitled-ontology-13#cinnamon=c -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/hafeez/ontologies/2015/5/untitled-ontology-13#cinnamon=c">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/hafeez/ontologies/2015/5/untitled-ontology-13#cap-color"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/hafeez/ontologies/2015/5/untitled-ontology-13#close=c -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/hafeez/ontologies/2015/5/untitled-ontology-13#close=c">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/hafeez/ontologies/2015/5/untitled-ontology-13#gill-spacing"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/hafeez/ontologies/2015/5/untitled-ontology-13#club=c -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/hafeez/ontologies/2015/5/untitled-ontology-13#club=c">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/hafeez/ontologies/2015/5/untitled-ontology-13#stalk-root"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/hafeez/ontologies/2015/5/untitled-ontology-13#clustered=c -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/hafeez/ontologies/2015/5/untitled-ontology-13#clustered=c">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/hafeez/ontologies/2015/5/untitled-ontology-13#population"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/hafeez/ontologies/2015/5/untitled-ontology-13#concex=x -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/hafeez/ontologies/2015/5/untitled-ontology-13#concex=x">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/hafeez/ontologies/2015/5/untitled-ontology-13#cap-shape"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/hafeez/ontologies/2015/5/untitled-ontology-13#conical=c -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/hafeez/ontologies/2015/5/untitled-ontology-13#conical=c">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/hafeez/ontologies/2015/5/untitled-ontology-13#cap-shape"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/hafeez/ontologies/2015/5/untitled-ontology-13#creosote=c -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/hafeez/ontologies/2015/5/untitled-ontology-13#creosote=c">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/hafeez/ontologies/2015/5/untitled-ontology-13#odor"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/hafeez/ontologies/2015/5/untitled-ontology-13#crowded=w -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/hafeez/ontologies/2015/5/untitled-ontology-13#crowded=w">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/hafeez/ontologies/2015/5/untitled-ontology-13#gill-spacing"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/hafeez/ontologies/2015/5/untitled-ontology-13#cup=u -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/hafeez/ontologies/2015/5/untitled-ontology-13#cup=u">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/hafeez/ontologies/2015/5/untitled-ontology-13#stalk-root"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/hafeez/ontologies/2015/5/untitled-ontology-13#descending=d -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/hafeez/ontologies/2015/5/untitled-ontology-13#descending=d">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/hafeez/ontologies/2015/5/untitled-ontology-13#gill-attachment"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/hafeez/ontologies/2015/5/untitled-ontology-13#distant=d -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/hafeez/ontologies/2015/5/untitled-ontology-13#distant=d">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/hafeez/ontologies/2015/5/untitled-ontology-13#gill-spacing"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/hafeez/ontologies/2015/5/untitled-ontology-13#enlarging=e -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/hafeez/ontologies/2015/5/untitled-ontology-13#enlarging=e">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/hafeez/ontologies/2015/5/untitled-ontology-13#stalk-shape"/>
+        <owl:disjointWith rdf:resource="http://www.semanticweb.org/hafeez/ontologies/2015/5/untitled-ontology-13#tapering=t"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/hafeez/ontologies/2015/5/untitled-ontology-13#equal=e -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/hafeez/ontologies/2015/5/untitled-ontology-13#equal=e">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/hafeez/ontologies/2015/5/untitled-ontology-13#stalk-root"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/hafeez/ontologies/2015/5/untitled-ontology-13#fibrous=F -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/hafeez/ontologies/2015/5/untitled-ontology-13#fibrous=F">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/hafeez/ontologies/2015/5/untitled-ontology-13#stalk-surface-below-ring"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/hafeez/ontologies/2015/5/untitled-ontology-13#fibrous=f -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/hafeez/ontologies/2015/5/untitled-ontology-13#fibrous=f">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/hafeez/ontologies/2015/5/untitled-ontology-13#cap-surface"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/hafeez/ontologies/2015/5/untitled-ontology-13#fishy=y -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/hafeez/ontologies/2015/5/untitled-ontology-13#fishy=y">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/hafeez/ontologies/2015/5/untitled-ontology-13#odor"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/hafeez/ontologies/2015/5/untitled-ontology-13#flat=f -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/hafeez/ontologies/2015/5/untitled-ontology-13#flat=f">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/hafeez/ontologies/2015/5/untitled-ontology-13#cap-shape"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/hafeez/ontologies/2015/5/untitled-ontology-13#foul=f -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/hafeez/ontologies/2015/5/untitled-ontology-13#foul=f">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/hafeez/ontologies/2015/5/untitled-ontology-13#odor"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/hafeez/ontologies/2015/5/untitled-ontology-13#free=f -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/hafeez/ontologies/2015/5/untitled-ontology-13#free=f">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/hafeez/ontologies/2015/5/untitled-ontology-13#gill-attachment"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/hafeez/ontologies/2015/5/untitled-ontology-13#gill-attachment -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/hafeez/ontologies/2015/5/untitled-ontology-13#gill-attachment">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/hafeez/ontologies/2015/5/untitled-ontology-13#Mushrooms"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/hafeez/ontologies/2015/5/untitled-ontology-13#gill-color -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/hafeez/ontologies/2015/5/untitled-ontology-13#gill-color">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/hafeez/ontologies/2015/5/untitled-ontology-13#Mushrooms"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/hafeez/ontologies/2015/5/untitled-ontology-13#gill-size -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/hafeez/ontologies/2015/5/untitled-ontology-13#gill-size">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/hafeez/ontologies/2015/5/untitled-ontology-13#Mushrooms"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/hafeez/ontologies/2015/5/untitled-ontology-13#gill-spacing -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/hafeez/ontologies/2015/5/untitled-ontology-13#gill-spacing">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/hafeez/ontologies/2015/5/untitled-ontology-13#Mushrooms"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/hafeez/ontologies/2015/5/untitled-ontology-13#grasses=g -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/hafeez/ontologies/2015/5/untitled-ontology-13#grasses=g">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/hafeez/ontologies/2015/5/untitled-ontology-13#habitat"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/hafeez/ontologies/2015/5/untitled-ontology-13#gray=g -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/hafeez/ontologies/2015/5/untitled-ontology-13#gray=g">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/hafeez/ontologies/2015/5/untitled-ontology-13#cap-color"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/hafeez/ontologies/2015/5/untitled-ontology-13#green=r -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/hafeez/ontologies/2015/5/untitled-ontology-13#green=r">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/hafeez/ontologies/2015/5/untitled-ontology-13#cap-color"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/hafeez/ontologies/2015/5/untitled-ontology-13#grooves=g -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/hafeez/ontologies/2015/5/untitled-ontology-13#grooves=g">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/hafeez/ontologies/2015/5/untitled-ontology-13#cap-surface"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/hafeez/ontologies/2015/5/untitled-ontology-13#habitat -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/hafeez/ontologies/2015/5/untitled-ontology-13#habitat">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/hafeez/ontologies/2015/5/untitled-ontology-13#Mushrooms"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/hafeez/ontologies/2015/5/untitled-ontology-13#knobbed=k -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/hafeez/ontologies/2015/5/untitled-ontology-13#knobbed=k">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/hafeez/ontologies/2015/5/untitled-ontology-13#cap-shape"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/hafeez/ontologies/2015/5/untitled-ontology-13#leaves=l -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/hafeez/ontologies/2015/5/untitled-ontology-13#leaves=l">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/hafeez/ontologies/2015/5/untitled-ontology-13#habitat"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/hafeez/ontologies/2015/5/untitled-ontology-13#meadows=m -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/hafeez/ontologies/2015/5/untitled-ontology-13#meadows=m">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/hafeez/ontologies/2015/5/untitled-ontology-13#habitat"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/hafeez/ontologies/2015/5/untitled-ontology-13#missing=? -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/hafeez/ontologies/2015/5/untitled-ontology-13#missing=?">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/hafeez/ontologies/2015/5/untitled-ontology-13#stalk-root"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/hafeez/ontologies/2015/5/untitled-ontology-13#musty=m -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/hafeez/ontologies/2015/5/untitled-ontology-13#musty=m">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/hafeez/ontologies/2015/5/untitled-ontology-13#odor"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/hafeez/ontologies/2015/5/untitled-ontology-13#narrow=n -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/hafeez/ontologies/2015/5/untitled-ontology-13#narrow=n">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/hafeez/ontologies/2015/5/untitled-ontology-13#gill-size"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/hafeez/ontologies/2015/5/untitled-ontology-13#no=f -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/hafeez/ontologies/2015/5/untitled-ontology-13#no=f">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/hafeez/ontologies/2015/5/untitled-ontology-13#bruises"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/hafeez/ontologies/2015/5/untitled-ontology-13#none=n -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/hafeez/ontologies/2015/5/untitled-ontology-13#none=n">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/hafeez/ontologies/2015/5/untitled-ontology-13#odor"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/hafeez/ontologies/2015/5/untitled-ontology-13#notched=n -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/hafeez/ontologies/2015/5/untitled-ontology-13#notched=n">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/hafeez/ontologies/2015/5/untitled-ontology-13#gill-attachment"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/hafeez/ontologies/2015/5/untitled-ontology-13#numerous=n -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/hafeez/ontologies/2015/5/untitled-ontology-13#numerous=n">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/hafeez/ontologies/2015/5/untitled-ontology-13#population"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/hafeez/ontologies/2015/5/untitled-ontology-13#odor -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/hafeez/ontologies/2015/5/untitled-ontology-13#odor">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/hafeez/ontologies/2015/5/untitled-ontology-13#Mushrooms"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/hafeez/ontologies/2015/5/untitled-ontology-13#orange=O -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/hafeez/ontologies/2015/5/untitled-ontology-13#orange=O">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/hafeez/ontologies/2015/5/untitled-ontology-13#veil-color"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/hafeez/ontologies/2015/5/untitled-ontology-13#partial=p -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/hafeez/ontologies/2015/5/untitled-ontology-13#partial=p">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/hafeez/ontologies/2015/5/untitled-ontology-13#veil-type"/>
+        <owl:disjointWith rdf:resource="http://www.semanticweb.org/hafeez/ontologies/2015/5/untitled-ontology-13#universal=u"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/hafeez/ontologies/2015/5/untitled-ontology-13#paths=p -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/hafeez/ontologies/2015/5/untitled-ontology-13#paths=p">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/hafeez/ontologies/2015/5/untitled-ontology-13#habitat"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/hafeez/ontologies/2015/5/untitled-ontology-13#pink=p -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/hafeez/ontologies/2015/5/untitled-ontology-13#pink=p">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/hafeez/ontologies/2015/5/untitled-ontology-13#cap-color"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/hafeez/ontologies/2015/5/untitled-ontology-13#population -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/hafeez/ontologies/2015/5/untitled-ontology-13#population">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/hafeez/ontologies/2015/5/untitled-ontology-13#Mushrooms"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/hafeez/ontologies/2015/5/untitled-ontology-13#pungent=p -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/hafeez/ontologies/2015/5/untitled-ontology-13#pungent=p">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/hafeez/ontologies/2015/5/untitled-ontology-13#odor"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/hafeez/ontologies/2015/5/untitled-ontology-13#purple=u -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/hafeez/ontologies/2015/5/untitled-ontology-13#purple=u">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/hafeez/ontologies/2015/5/untitled-ontology-13#cap-color"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/hafeez/ontologies/2015/5/untitled-ontology-13#red=e -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/hafeez/ontologies/2015/5/untitled-ontology-13#red=e">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/hafeez/ontologies/2015/5/untitled-ontology-13#cap-color"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/hafeez/ontologies/2015/5/untitled-ontology-13#rhizomorphs=z -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/hafeez/ontologies/2015/5/untitled-ontology-13#rhizomorphs=z">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/hafeez/ontologies/2015/5/untitled-ontology-13#stalk-root"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/hafeez/ontologies/2015/5/untitled-ontology-13#ring-number -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/hafeez/ontologies/2015/5/untitled-ontology-13#ring-number">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/hafeez/ontologies/2015/5/untitled-ontology-13#Mushrooms"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/hafeez/ontologies/2015/5/untitled-ontology-13#ring-type -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/hafeez/ontologies/2015/5/untitled-ontology-13#ring-type">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/hafeez/ontologies/2015/5/untitled-ontology-13#Mushrooms"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/hafeez/ontologies/2015/5/untitled-ontology-13#rooted=r -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/hafeez/ontologies/2015/5/untitled-ontology-13#rooted=r">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/hafeez/ontologies/2015/5/untitled-ontology-13#stalk-root"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/hafeez/ontologies/2015/5/untitled-ontology-13#scaly=Y -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/hafeez/ontologies/2015/5/untitled-ontology-13#scaly=Y">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/hafeez/ontologies/2015/5/untitled-ontology-13#stalk-surface-below-ring"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/hafeez/ontologies/2015/5/untitled-ontology-13#scaly=y -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/hafeez/ontologies/2015/5/untitled-ontology-13#scaly=y">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/hafeez/ontologies/2015/5/untitled-ontology-13#cap-surface"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/hafeez/ontologies/2015/5/untitled-ontology-13#scattered=s -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/hafeez/ontologies/2015/5/untitled-ontology-13#scattered=s">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/hafeez/ontologies/2015/5/untitled-ontology-13#population"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/hafeez/ontologies/2015/5/untitled-ontology-13#several=v -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/hafeez/ontologies/2015/5/untitled-ontology-13#several=v">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/hafeez/ontologies/2015/5/untitled-ontology-13#population"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/hafeez/ontologies/2015/5/untitled-ontology-13#silky=K -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/hafeez/ontologies/2015/5/untitled-ontology-13#silky=K">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/hafeez/ontologies/2015/5/untitled-ontology-13#stalk-surface-below-ring"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/hafeez/ontologies/2015/5/untitled-ontology-13#smooth=S -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/hafeez/ontologies/2015/5/untitled-ontology-13#smooth=S">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/hafeez/ontologies/2015/5/untitled-ontology-13#stalk-surface-below-ring"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/hafeez/ontologies/2015/5/untitled-ontology-13#smooth=s -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/hafeez/ontologies/2015/5/untitled-ontology-13#smooth=s">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/hafeez/ontologies/2015/5/untitled-ontology-13#cap-surface"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/hafeez/ontologies/2015/5/untitled-ontology-13#solitary=y -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/hafeez/ontologies/2015/5/untitled-ontology-13#solitary=y">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/hafeez/ontologies/2015/5/untitled-ontology-13#population"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/hafeez/ontologies/2015/5/untitled-ontology-13#spicy=s -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/hafeez/ontologies/2015/5/untitled-ontology-13#spicy=s">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/hafeez/ontologies/2015/5/untitled-ontology-13#odor"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/hafeez/ontologies/2015/5/untitled-ontology-13#spore-print-color -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/hafeez/ontologies/2015/5/untitled-ontology-13#spore-print-color">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/hafeez/ontologies/2015/5/untitled-ontology-13#Mushrooms"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/hafeez/ontologies/2015/5/untitled-ontology-13#stalk-color-above-ring -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/hafeez/ontologies/2015/5/untitled-ontology-13#stalk-color-above-ring">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/hafeez/ontologies/2015/5/untitled-ontology-13#Mushrooms"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/hafeez/ontologies/2015/5/untitled-ontology-13#stalk-color-below-ring -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/hafeez/ontologies/2015/5/untitled-ontology-13#stalk-color-below-ring">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/hafeez/ontologies/2015/5/untitled-ontology-13#Mushrooms"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/hafeez/ontologies/2015/5/untitled-ontology-13#stalk-root -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/hafeez/ontologies/2015/5/untitled-ontology-13#stalk-root">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/hafeez/ontologies/2015/5/untitled-ontology-13#Mushrooms"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/hafeez/ontologies/2015/5/untitled-ontology-13#stalk-shape -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/hafeez/ontologies/2015/5/untitled-ontology-13#stalk-shape">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/hafeez/ontologies/2015/5/untitled-ontology-13#Mushrooms"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/hafeez/ontologies/2015/5/untitled-ontology-13#stalk-surface-above-ring -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/hafeez/ontologies/2015/5/untitled-ontology-13#stalk-surface-above-ring">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/hafeez/ontologies/2015/5/untitled-ontology-13#Mushrooms"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/hafeez/ontologies/2015/5/untitled-ontology-13#stalk-surface-below-ring -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/hafeez/ontologies/2015/5/untitled-ontology-13#stalk-surface-below-ring">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/hafeez/ontologies/2015/5/untitled-ontology-13#Mushrooms"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/hafeez/ontologies/2015/5/untitled-ontology-13#sunket=s -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/hafeez/ontologies/2015/5/untitled-ontology-13#sunket=s">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/hafeez/ontologies/2015/5/untitled-ontology-13#cap-shape"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/hafeez/ontologies/2015/5/untitled-ontology-13#tapering=t -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/hafeez/ontologies/2015/5/untitled-ontology-13#tapering=t">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/hafeez/ontologies/2015/5/untitled-ontology-13#stalk-shape"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/hafeez/ontologies/2015/5/untitled-ontology-13#universal=u -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/hafeez/ontologies/2015/5/untitled-ontology-13#universal=u">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/hafeez/ontologies/2015/5/untitled-ontology-13#veil-type"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/hafeez/ontologies/2015/5/untitled-ontology-13#urban=u -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/hafeez/ontologies/2015/5/untitled-ontology-13#urban=u">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/hafeez/ontologies/2015/5/untitled-ontology-13#habitat"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/hafeez/ontologies/2015/5/untitled-ontology-13#veil-color -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/hafeez/ontologies/2015/5/untitled-ontology-13#veil-color">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/hafeez/ontologies/2015/5/untitled-ontology-13#Mushrooms"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/hafeez/ontologies/2015/5/untitled-ontology-13#veil-type -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/hafeez/ontologies/2015/5/untitled-ontology-13#veil-type">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/hafeez/ontologies/2015/5/untitled-ontology-13#Mushrooms"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/hafeez/ontologies/2015/5/untitled-ontology-13#waste=w -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/hafeez/ontologies/2015/5/untitled-ontology-13#waste=w">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/hafeez/ontologies/2015/5/untitled-ontology-13#habitat"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/hafeez/ontologies/2015/5/untitled-ontology-13#white=W -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/hafeez/ontologies/2015/5/untitled-ontology-13#white=W">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/hafeez/ontologies/2015/5/untitled-ontology-13#veil-color"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/hafeez/ontologies/2015/5/untitled-ontology-13#white=w -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/hafeez/ontologies/2015/5/untitled-ontology-13#white=w">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/hafeez/ontologies/2015/5/untitled-ontology-13#cap-color"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/hafeez/ontologies/2015/5/untitled-ontology-13#woods=d -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/hafeez/ontologies/2015/5/untitled-ontology-13#woods=d">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/hafeez/ontologies/2015/5/untitled-ontology-13#habitat"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/hafeez/ontologies/2015/5/untitled-ontology-13#yellow=Y -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/hafeez/ontologies/2015/5/untitled-ontology-13#yellow=Y">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/hafeez/ontologies/2015/5/untitled-ontology-13#veil-color"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/hafeez/ontologies/2015/5/untitled-ontology-13#yellow=y -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/hafeez/ontologies/2015/5/untitled-ontology-13#yellow=y">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/hafeez/ontologies/2015/5/untitled-ontology-13#cap-color"/>
+    </owl:Class>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // General axioms
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    <rdf:Description>
+        <rdf:type rdf:resource="&owl;AllDisjointClasses"/>
+        <owl:members rdf:parseType="Collection">
+            <rdf:Description rdf:about="http://www.semanticweb.org/hafeez/ontologies/2015/5/untitled-ontology-13#Fibrous=f"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/hafeez/ontologies/2015/5/untitled-ontology-13#Scaly=y"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/hafeez/ontologies/2015/5/untitled-ontology-13#Silky=k"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/hafeez/ontologies/2015/5/untitled-ontology-13#Smooth=s"/>
+        </owl:members>
+    </rdf:Description>
+    <rdf:Description>
+        <rdf:type rdf:resource="&owl;AllDisjointClasses"/>
+        <owl:members rdf:parseType="Collection">
+            <rdf:Description rdf:about="http://www.semanticweb.org/hafeez/ontologies/2015/5/untitled-ontology-13#close=c"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/hafeez/ontologies/2015/5/untitled-ontology-13#crowded=w"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/hafeez/ontologies/2015/5/untitled-ontology-13#distant=d"/>
+        </owl:members>
+    </rdf:Description>
+    <rdf:Description>
+        <rdf:type rdf:resource="&owl;AllDisjointClasses"/>
+        <owl:members rdf:parseType="Collection">
+            <rdf:Description rdf:about="http://www.semanticweb.org/hafeez/ontologies/2015/5/untitled-ontology-13#brown=n"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/hafeez/ontologies/2015/5/untitled-ontology-13#buff=b"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/hafeez/ontologies/2015/5/untitled-ontology-13#cinnamon=c"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/hafeez/ontologies/2015/5/untitled-ontology-13#gray=g"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/hafeez/ontologies/2015/5/untitled-ontology-13#green=r"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/hafeez/ontologies/2015/5/untitled-ontology-13#pink=p"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/hafeez/ontologies/2015/5/untitled-ontology-13#purple=u"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/hafeez/ontologies/2015/5/untitled-ontology-13#red=e"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/hafeez/ontologies/2015/5/untitled-ontology-13#white=w"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/hafeez/ontologies/2015/5/untitled-ontology-13#yellow=y"/>
+        </owl:members>
+    </rdf:Description>
+    <rdf:Description>
+        <rdf:type rdf:resource="&owl;AllDisjointClasses"/>
+        <owl:members rdf:parseType="Collection">
+            <rdf:Description rdf:about="http://www.semanticweb.org/hafeez/ontologies/2015/5/untitled-ontology-13#almond=a"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/hafeez/ontologies/2015/5/untitled-ontology-13#anise=l"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/hafeez/ontologies/2015/5/untitled-ontology-13#creosote=c"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/hafeez/ontologies/2015/5/untitled-ontology-13#fishy=y"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/hafeez/ontologies/2015/5/untitled-ontology-13#foul=f"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/hafeez/ontologies/2015/5/untitled-ontology-13#musty=m"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/hafeez/ontologies/2015/5/untitled-ontology-13#none=n"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/hafeez/ontologies/2015/5/untitled-ontology-13#pungent=p"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/hafeez/ontologies/2015/5/untitled-ontology-13#spicy=s"/>
+        </owl:members>
+    </rdf:Description>
+    <rdf:Description>
+        <rdf:type rdf:resource="&owl;AllDisjointClasses"/>
+        <owl:members rdf:parseType="Collection">
+            <rdf:Description rdf:about="http://www.semanticweb.org/hafeez/ontologies/2015/5/untitled-ontology-13#brown=N"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/hafeez/ontologies/2015/5/untitled-ontology-13#orange=O"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/hafeez/ontologies/2015/5/untitled-ontology-13#white=W"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/hafeez/ontologies/2015/5/untitled-ontology-13#yellow=Y"/>
+        </owl:members>
+    </rdf:Description>
+    <rdf:Description>
+        <rdf:type rdf:resource="&owl;AllDisjointClasses"/>
+        <owl:members rdf:parseType="Collection">
+            <rdf:Description rdf:about="http://www.semanticweb.org/hafeez/ontologies/2015/5/untitled-ontology-13#bulbous=b"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/hafeez/ontologies/2015/5/untitled-ontology-13#club=c"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/hafeez/ontologies/2015/5/untitled-ontology-13#cup=u"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/hafeez/ontologies/2015/5/untitled-ontology-13#equal=e"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/hafeez/ontologies/2015/5/untitled-ontology-13#missing=?"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/hafeez/ontologies/2015/5/untitled-ontology-13#rhizomorphs=z"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/hafeez/ontologies/2015/5/untitled-ontology-13#rooted=r"/>
+        </owl:members>
+    </rdf:Description>
+    <rdf:Description>
+        <rdf:type rdf:resource="&owl;AllDisjointClasses"/>
+        <owl:members rdf:parseType="Collection">
+            <rdf:Description rdf:about="http://www.semanticweb.org/hafeez/ontologies/2015/5/untitled-ontology-13#abundant=a"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/hafeez/ontologies/2015/5/untitled-ontology-13#clustered=c"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/hafeez/ontologies/2015/5/untitled-ontology-13#numerous=n"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/hafeez/ontologies/2015/5/untitled-ontology-13#scattered=s"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/hafeez/ontologies/2015/5/untitled-ontology-13#several=v"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/hafeez/ontologies/2015/5/untitled-ontology-13#solitary=y"/>
+        </owl:members>
+    </rdf:Description>
+    <rdf:Description>
+        <rdf:type rdf:resource="&owl;AllDisjointClasses"/>
+        <owl:members rdf:parseType="Collection">
+            <rdf:Description rdf:about="http://www.semanticweb.org/hafeez/ontologies/2015/5/untitled-ontology-13#grasses=g"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/hafeez/ontologies/2015/5/untitled-ontology-13#leaves=l"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/hafeez/ontologies/2015/5/untitled-ontology-13#meadows=m"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/hafeez/ontologies/2015/5/untitled-ontology-13#paths=p"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/hafeez/ontologies/2015/5/untitled-ontology-13#urban=u"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/hafeez/ontologies/2015/5/untitled-ontology-13#waste=w"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/hafeez/ontologies/2015/5/untitled-ontology-13#woods=d"/>
+        </owl:members>
+    </rdf:Description>
+    <rdf:Description>
+        <rdf:type rdf:resource="&owl;AllDisjointClasses"/>
+        <owl:members rdf:parseType="Collection">
+            <rdf:Description rdf:about="http://www.semanticweb.org/hafeez/ontologies/2015/5/untitled-ontology-13#Brown=N."/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/hafeez/ontologies/2015/5/untitled-ontology-13#Buff=B."/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/hafeez/ontologies/2015/5/untitled-ontology-13#Cinnamon=C."/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/hafeez/ontologies/2015/5/untitled-ontology-13#Gray=G."/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/hafeez/ontologies/2015/5/untitled-ontology-13#Orange=O."/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/hafeez/ontologies/2015/5/untitled-ontology-13#Pink=P."/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/hafeez/ontologies/2015/5/untitled-ontology-13#Red=E."/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/hafeez/ontologies/2015/5/untitled-ontology-13#White=W."/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/hafeez/ontologies/2015/5/untitled-ontology-13#Yellow=Y."/>
+        </owl:members>
+    </rdf:Description>
+    <rdf:Description>
+        <rdf:type rdf:resource="&owl;AllDisjointClasses"/>
+        <owl:members rdf:parseType="Collection">
+            <rdf:Description rdf:about="http://www.semanticweb.org/hafeez/ontologies/2015/5/untitled-ontology-13#fibrous=F"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/hafeez/ontologies/2015/5/untitled-ontology-13#scaly=Y"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/hafeez/ontologies/2015/5/untitled-ontology-13#silky=K"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/hafeez/ontologies/2015/5/untitled-ontology-13#smooth=S"/>
+        </owl:members>
+    </rdf:Description>
+    <rdf:Description>
+        <rdf:type rdf:resource="&owl;AllDisjointClasses"/>
+        <owl:members rdf:parseType="Collection">
+            <rdf:Description rdf:about="http://www.semanticweb.org/hafeez/ontologies/2015/5/untitled-ontology-13#bruises"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/hafeez/ontologies/2015/5/untitled-ontology-13#cap-color"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/hafeez/ontologies/2015/5/untitled-ontology-13#cap-shape"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/hafeez/ontologies/2015/5/untitled-ontology-13#cap-surface"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/hafeez/ontologies/2015/5/untitled-ontology-13#gill-attachment"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/hafeez/ontologies/2015/5/untitled-ontology-13#gill-color"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/hafeez/ontologies/2015/5/untitled-ontology-13#gill-size"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/hafeez/ontologies/2015/5/untitled-ontology-13#gill-spacing"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/hafeez/ontologies/2015/5/untitled-ontology-13#habitat"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/hafeez/ontologies/2015/5/untitled-ontology-13#odor"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/hafeez/ontologies/2015/5/untitled-ontology-13#population"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/hafeez/ontologies/2015/5/untitled-ontology-13#ring-number"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/hafeez/ontologies/2015/5/untitled-ontology-13#ring-type"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/hafeez/ontologies/2015/5/untitled-ontology-13#spore-print-color"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/hafeez/ontologies/2015/5/untitled-ontology-13#stalk-color-above-ring"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/hafeez/ontologies/2015/5/untitled-ontology-13#stalk-color-below-ring"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/hafeez/ontologies/2015/5/untitled-ontology-13#stalk-root"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/hafeez/ontologies/2015/5/untitled-ontology-13#stalk-shape"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/hafeez/ontologies/2015/5/untitled-ontology-13#stalk-surface-above-ring"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/hafeez/ontologies/2015/5/untitled-ontology-13#stalk-surface-below-ring"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/hafeez/ontologies/2015/5/untitled-ontology-13#veil-color"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/hafeez/ontologies/2015/5/untitled-ontology-13#veil-type"/>
+        </owl:members>
+    </rdf:Description>
+    <rdf:Description>
+        <rdf:type rdf:resource="&owl;AllDisjointClasses"/>
+        <owl:members rdf:parseType="Collection">
+            <rdf:Description rdf:about="http://www.semanticweb.org/hafeez/ontologies/2015/5/untitled-ontology-13#Brown=N"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/hafeez/ontologies/2015/5/untitled-ontology-13#Buff=B"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/hafeez/ontologies/2015/5/untitled-ontology-13#Cinnamon=C"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/hafeez/ontologies/2015/5/untitled-ontology-13#Gray=G"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/hafeez/ontologies/2015/5/untitled-ontology-13#Orange=O"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/hafeez/ontologies/2015/5/untitled-ontology-13#Pink=P"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/hafeez/ontologies/2015/5/untitled-ontology-13#Red=E"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/hafeez/ontologies/2015/5/untitled-ontology-13#White=W"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/hafeez/ontologies/2015/5/untitled-ontology-13#Yellow=Y"/>
+        </owl:members>
+    </rdf:Description>
+    <rdf:Description>
+        <rdf:type rdf:resource="&owl;AllDisjointClasses"/>
+        <owl:members rdf:parseType="Collection">
+            <rdf:Description rdf:about="http://www.semanticweb.org/hafeez/ontologies/2015/5/untitled-ontology-13#Black=k"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/hafeez/ontologies/2015/5/untitled-ontology-13#Brown=n"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/hafeez/ontologies/2015/5/untitled-ontology-13#Buff=b"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/hafeez/ontologies/2015/5/untitled-ontology-13#Chocholate=h"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/hafeez/ontologies/2015/5/untitled-ontology-13#Gray=g"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/hafeez/ontologies/2015/5/untitled-ontology-13#Green=r"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/hafeez/ontologies/2015/5/untitled-ontology-13#Orange=opink=p"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/hafeez/ontologies/2015/5/untitled-ontology-13#Purple=u"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/hafeez/ontologies/2015/5/untitled-ontology-13#Red=e"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/hafeez/ontologies/2015/5/untitled-ontology-13#White=w"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/hafeez/ontologies/2015/5/untitled-ontology-13#Yellow=y"/>
+        </owl:members>
+    </rdf:Description>
+    <rdf:Description>
+        <rdf:type rdf:resource="&owl;AllDisjointClasses"/>
+        <owl:members rdf:parseType="Collection">
+            <rdf:Description rdf:about="http://www.semanticweb.org/hafeez/ontologies/2015/5/untitled-ontology-13#Black=_K"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/hafeez/ontologies/2015/5/untitled-ontology-13#Brown=_N"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/hafeez/ontologies/2015/5/untitled-ontology-13#Buff=_B"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/hafeez/ontologies/2015/5/untitled-ontology-13#Chocholate=_H"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/hafeez/ontologies/2015/5/untitled-ontology-13#Green=_R"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/hafeez/ontologies/2015/5/untitled-ontology-13#Orange=_O"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/hafeez/ontologies/2015/5/untitled-ontology-13#Purple=_U"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/hafeez/ontologies/2015/5/untitled-ontology-13#White=_W"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/hafeez/ontologies/2015/5/untitled-ontology-13#Yellow=_Y"/>
+        </owl:members>
+    </rdf:Description>
+    <rdf:Description>
+        <rdf:type rdf:resource="&owl;AllDisjointClasses"/>
+        <owl:members rdf:parseType="Collection">
+            <rdf:Description rdf:about="http://www.semanticweb.org/hafeez/ontologies/2015/5/untitled-ontology-13#fibrous=f"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/hafeez/ontologies/2015/5/untitled-ontology-13#grooves=g"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/hafeez/ontologies/2015/5/untitled-ontology-13#scaly=y"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/hafeez/ontologies/2015/5/untitled-ontology-13#smooth=s"/>
+        </owl:members>
+    </rdf:Description>
+    <rdf:Description>
+        <rdf:type rdf:resource="&owl;AllDisjointClasses"/>
+        <owl:members rdf:parseType="Collection">
+            <rdf:Description rdf:about="http://www.semanticweb.org/hafeez/ontologies/2015/5/untitled-ontology-13#attached=a"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/hafeez/ontologies/2015/5/untitled-ontology-13#descending=d"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/hafeez/ontologies/2015/5/untitled-ontology-13#free=f"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/hafeez/ontologies/2015/5/untitled-ontology-13#notched=n"/>
+        </owl:members>
+    </rdf:Description>
+    <rdf:Description>
+        <rdf:type rdf:resource="&owl;AllDisjointClasses"/>
+        <owl:members rdf:parseType="Collection">
+            <rdf:Description rdf:about="http://www.semanticweb.org/hafeez/ontologies/2015/5/untitled-ontology-13#bell=b"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/hafeez/ontologies/2015/5/untitled-ontology-13#concex=x"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/hafeez/ontologies/2015/5/untitled-ontology-13#conical=c"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/hafeez/ontologies/2015/5/untitled-ontology-13#flat=f"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/hafeez/ontologies/2015/5/untitled-ontology-13#knobbed=k"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/hafeez/ontologies/2015/5/untitled-ontology-13#sunket=s"/>
+        </owl:members>
+    </rdf:Description>
+    <rdf:Description>
+        <rdf:type rdf:resource="&owl;AllDisjointClasses"/>
+        <owl:members rdf:parseType="Collection">
+            <rdf:Description rdf:about="http://www.semanticweb.org/hafeez/ontologies/2015/5/untitled-ontology-13#None=n"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/hafeez/ontologies/2015/5/untitled-ontology-13#One=o"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/hafeez/ontologies/2015/5/untitled-ontology-13#Two=t"/>
+        </owl:members>
+    </rdf:Description>
+</rdf:RDF>
+
+
+
+<!-- Generated by the OWL API (version 3.4.2) http://owlapi.sourceforge.net -->
+
